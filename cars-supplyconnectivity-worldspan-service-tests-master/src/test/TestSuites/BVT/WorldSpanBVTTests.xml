@@ -1,0 +1,15 @@
+<suite name="All WorldSpan BVTs" verbose="1">
+    <!--<listeners>
+        <listener class-name="CustomTestNGReporter"/>
+    </listeners> -->
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <test name="All WorldSpan BVTs">
+        <packages>
+            <package name="com.expedia.s3.cars.supplyconnectivity.worldspan.service.tests.bvt.*"/>
+        </packages>
+    </test>
+
+</suite>

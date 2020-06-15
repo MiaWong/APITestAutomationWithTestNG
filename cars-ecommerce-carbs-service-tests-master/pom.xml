@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.expedia.s3</groupId>
+    <artifactId>car-eccommerce-carbs-service-tests</artifactId>
+    <version>1.0.0</version>
+
+    <parent>
+        <groupId>com.expedia.s3</groupId>
+        <artifactId>cars-modules-test-parent</artifactId>
+        <version>1.0.8</version>
+    </parent>
+
+    <name>cars-ecommerce-carbs-service-tests</name>
+
+    <properties>
+        <cars-framework-keyvalueloghandling.version>[5.0,5.9999]</cars-framework-keyvalueloghandling.version>
+        <supplyconnectivity-messages>4.16.0.2</supplyconnectivity-messages>
+        <cars-framework-test-common.version>[1.0,1.9999]</cars-framework-test-common.version>
+        <cars-framework-core.version>[7.0,7.9999]</cars-framework-core.version>
+        <cars-framework-servicerequest.version>[7.0.0, 7.9999]</cars-framework-servicerequest.version>
+
+        <cars-supply-schema.version>1.8.6</cars-supply-schema.version>
+
+        <testng.version>6.8</testng.version>
+        <!-- This is a test module parent... Tests in the integration test modules should also comply with pmd rules -->
+        <pmd.includeTests>true</pmd.includeTests>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.expedia.s3</groupId>
+                <artifactId>cars-framework-core</artifactId>
+                <version>${cars-framework-core.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.expedia.s3</groupId>
+                <artifactId>cars-framework-servicerequest</artifactId>
+                <version>${cars-framework-servicerequest.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.testng</groupId>
+                <artifactId>testng</artifactId>
+                <version>${testng.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    
+    <dependencies>
+        <dependency>
+            <groupId>com.expedia.s3</groupId>
+            <artifactId>cars-framework-test-common</artifactId>
+            <version>${cars-framework-test-common.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.expedia.s3</groupId>
+            <artifactId>cars-framework-keyvalueloghandling</artifactId>
+            <version>${cars-framework-keyvalueloghandling.version}</version>
+        </dependency>
+
+        <!-- Carbs messages -->
+
+        <dependency>
+            <groupId>expedia</groupId>
+            <artifactId>com.expedia.s3.cars.ecommerce.messages.search.v4</artifactId>
+            <version>4.20.0.8</version>
+        </dependency>
+        <dependency>
+            <groupId>expedia</groupId>
+            <artifactId>com.expedia.s3.cars.ecommerce.messages.getdetails.v4</artifactId>
+            <version>4.20.0.8</version>
+        </dependency>
+        <dependency>
+            <groupId>expedia</groupId>
+            <artifactId>com.expedia.s3.cars.ecommerce.messages.getcostandavailability.v4</artifactId>
+            <version>4.20.0.8</version>
+        </dependency>
+        <dependency>
+            <groupId>expedia</groupId>
+            <artifactId>com.expedia.s3.cars.ecommerce.messages.getreservation.v4</artifactId>
+            <version>4.20.0.8</version>
+        </dependency>
+        <dependency>
+            <groupId>expedia</groupId>
+            <artifactId>com.expedia.s3.cars.ecommerce.messages.reserve.v4</artifactId>
+            <version>4.20.0.8</version>
+        </dependency>
+
+        <dependency>
+            <groupId>expedia</groupId>
+            <artifactId>com.expedia.s3.cars.ecommerce.messages.cancel.v4</artifactId>
+            <version>4.20.0.8</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cars-supply-schema</groupId>
+            <artifactId>cars-supply-schema-ecommerce-shopping-v1</artifactId>
+            <version>${cars-supply-schema.version}</version>
+            <type>xsd</type>
+        </dependency>
+
+        <dependency>
+            <groupId>cars-supply-schema</groupId>
+            <artifactId>cars-supply-schema-common-v1</artifactId>
+            <version>${cars-supply-schema.version}</version>
+            <type>xsd</type>
+        </dependency>
+
+        <!-- end carbs messages -->
+
+        <!-- OM message-->
+        <dependency>
+            <groupId>expedia</groupId>
+            <artifactId>com.expedia.s3.cars.ecommerce.oms.supply.messages.v1</artifactId>
+            <version>1.6.0.3</version>
+        </dependency>
+        <dependency>
+            <groupId>expedia</groupId>
+            <artifactId>com.expedia.s3.cars.messages.getchangedetail.v1</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>expedia</groupId>
+            <artifactId>com.expedia.s3.cars.om.supply.datatype.v1</artifactId>
+            <version>1.5.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>expedia</groupId>
+            <artifactId>com.expedia.e3.data.basetypes.v4</artifactId>
+            <version>4.4.5</version>
+        </dependency>
+        <!-- end OM message -->
+
+
+        <dependency>
+            <groupId>expedia</groupId>
+            <artifactId>com.expedia.s3.cars.messages.locationiata.search.v1</artifactId>
+            <version>1.1.0.1</version>
+        </dependency>
+
+
+
+        <!-- http://mvnrepository.com/artifact/joda-time/joda-time -->
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>2.9.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-validator</groupId>
+            <artifactId>commons-validator</artifactId>
+            <version>1.6</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.uncommons/reportng -->
+        <dependency>
+            <groupId>org.uncommons</groupId>
+            <artifactId>reportng</artifactId>
+            <version>1.1.4</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.guice</groupId>
+            <artifactId>com.springsource.com.google.inject</artifactId>
+            <version>2.0.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.expedia.prime.errorcatalog</groupId>
+            <artifactId>error-inspector</artifactId>
+            <version>0.1.9</version>
+        </dependency>
+        <dependency>
+            <groupId>com.expedia.www.platform</groupId>
+            <artifactId>platform-diagnostics</artifactId>
+            <version>2.0.4</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <finalName>${project.artifactId}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>2.10</version>
+                <executions>
+                    <execution>
+                        <id>copy-dependencies</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <includeArtifactIds>cars-supply-schema-common-v1,cars-supply-schema-ecommerce-shopping-v1</includeArtifactIds>
+                            <outputDirectory>${project.basedir}/target/xsd-includes</outputDirectory>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>copy-cars-schema</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>copy</goal>
+                        </goals>
+                        <configuration>
+                            <artifactItems>
+                                <artifactItem>
+                                    <groupId>cars-supply-schema</groupId>
+                                    <artifactId>cars-supply-schema-common-v1</artifactId>
+                                    <version>${cars-supply-schema.version}</version>
+                                    <type>xsd</type>
+                                    <overWrite>true</overWrite>
+                                    <outputDirectory>${project.basedir}/target/xsd-includes/src</outputDirectory>
+                                    <destFileName>cars-supply-schema-common.xsd</destFileName>
+                                </artifactItem>
+                                <artifactItem>
+                                    <groupId>cars-supply-schema</groupId>
+                                    <artifactId>cars-supply-schema-ecommerce-shopping-v1</artifactId>
+                                    <version>${cars-supply-schema.version}</version>
+                                    <type>xsd</type>
+                                    <overWrite>true</overWrite>
+                                    <outputDirectory>${project.basedir}/target/xsd-includes/src</outputDirectory>
+                                    <destFileName>cars-supply-schema-ecommerce-shopping.xsd</destFileName>
+                                </artifactItem>
+                            </artifactItems>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>copy</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>copy</goal>
+                        </goals>
+                        <configuration>
+                            <artifactItems>
+                                <artifactItem>
+                                    <groupId>com.expedia.prime.errorcatalog</groupId>
+                                    <artifactId>error-inspector</artifactId>
+                                    <version>${error-inspector.version}</version>
+                                    <overWrite>false</overWrite>
+                                    <outputDirectory>${project.build.directory}/error-inspect</outputDirectory>
+                                    <destFileName>inspect.jar</destFileName>
+                                </artifactItem>
+                                <artifactItem>
+                                    <groupId>com.expedia.www.platform</groupId>
+                                    <artifactId>platform-diagnostics</artifactId>
+                                    <overWrite>false</overWrite>
+                                    <outputDirectory>${project.build.directory}/error-inspect/lib</outputDirectory>
+                                    <destFileName>platform-diagnostics</destFileName>
+                                </artifactItem>
+                            </artifactItems>
+                            <overWriteReleases>false</overWriteReleases>
+                            <overWriteSnapshots>true</overWriteSnapshots>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+               <groupId>org.jvnet.jaxb2.maven2</groupId>
+                <artifactId>maven-jaxb2-plugin</artifactId>
+                <version>0.13.1</version>
+                <executions>
+                    <execution>
+                        <id>types</id>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <schemaDirectory>${project.basedir}</schemaDirectory>
+                    <schemaIncludes>
+                        <include>target/xsd-includes/src/*.xsd</include>
+                    </schemaIncludes>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

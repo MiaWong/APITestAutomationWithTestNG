@@ -1,0 +1,25 @@
+<suite name="Reserve" verbose="1">
+    <!--<listeners>
+        <listener class-name="com.expedia.s3.cars.supplyconnectivity.titanium.service.Logging.CustomTestNGLogger"/>
+    </listeners> -->
+    <test name="Reserve : Reserve">
+    <!--
+        <groups>
+            <run>
+                <include name="shopingRegressionLive"/>
+                <include name="bookingRegressionLive"/>
+            </run>
+        </groups>
+    -->
+        <parameter name="vendorSupplierID" value="14" />
+        <parameter name="carCategoryCode" value="6" />
+        <parameter name="carTypeCode" value="10" />
+        <parameter name="carTransmissionDriveCode" value="1" />
+        <parameter name="carFuelACCode" value="1" />
+
+        <!-- execution multiple suites in XML -->
+        <classes>
+            <class name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.reserve.Reserve"/>
+        </classes>
+    </test>
+</suite>

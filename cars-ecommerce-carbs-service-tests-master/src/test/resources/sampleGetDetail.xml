@@ -1,0 +1,311 @@
+<CarECommerceGetDetailsRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:com:expedia:s3:cars:ecommerce:messages:getdetails:defn:v4">
+    <MessageInfo p4:CreateDateTime="2017-03-21T02:13:22.4310004-07:00" p5:MessageNameString="CarECommerceGetDetailsRequest" p5:MessageVersion="4.1.0" p5:MessageGUID="7dc6222f-1579-455f-91fd-b8416822675e" xmlns:p5="urn:expedia:e3:data:messagetypes:defn:v4" xmlns:p4="urn:expedia:e3:data:timetypes:defn:v4" xmlns="urn:expedia:e3:data:messagetypes:defn:v4" />
+    <SiteMessageInfo xmlns="urn:expedia:e3:data:messagetypes:defn:v4">
+        <SiteKey xmlns="urn:expedia:e3:data:basetypes:defn:v4">
+            <SiteID>3</SiteID>
+        </SiteKey>
+        <PointOfSaleKey xmlns="urn:expedia:e3:data:placetypes:defn:v4">
+            <JurisdictionCountryCode>GBR</JurisdictionCountryCode>
+            <CompanyCode xmlns="urn:expedia:e3:data:basetypes:defn:v4">10111</CompanyCode>
+            <ManagementUnitCode xmlns="urn:expedia:e3:data:basetypes:defn:v4">1050</ManagementUnitCode>
+        </PointOfSaleKey>
+    </SiteMessageInfo>
+    <ClientCode xmlns="urn:expedia:e3:data:cartypes:defn:v5">1FX936</ClientCode>
+    <AuditLogTrackingData xmlns="urn:expedia:e3:data:cartypes:defn:v5">
+        <LogonUserKey xmlns="urn:expedia:e3:data:basetypes:defn:v4">
+            <UserID>518049</UserID>
+        </LogonUserKey>
+        <TravelerUserKey xmlns="urn:expedia:e3:data:basetypes:defn:v4">
+            <UserID>518049</UserID>
+        </TravelerUserKey>
+        <AuditLogGUID>d99cb194-de2f-4e66-9c23-62a9b71b11a2</AuditLogGUID>
+        <AuditLogTPID>3</AuditLogTPID>
+        <AuditLogEAPID>0</AuditLogEAPID>
+        <AuditLogGPID>0</AuditLogGPID>
+        <AuditLogLanguageId>2057</AuditLogLanguageId>
+        <AuditLogForceLogging>true</AuditLogForceLogging>
+        <AuditLogForceDownstreamTransaction>true</AuditLogForceDownstreamTransaction>
+    </AuditLogTrackingData>
+    <CarProductList xmlns="urn:expedia:e3:data:cartypes:defn:v5">
+        <CarProduct p5:CarProductToken="AQAQAQKBjhByCSDCiSDDClyZQBOMWulQFAA0gBUPXpAVjKKJgBrb8FsAED" p6:DataTimeStamp="2017-03-21T02:13:24.158-07:00" p7:DataSourceID="0" p7:Sequence="1" xmlns:p7="urn:expedia:e3:data:basetypes:defn:v4" xmlns:p6="urn:expedia:e3:data:timetypes:defn:v4" xmlns:p5="urn:expedia:e3:data:cartypes:defn:v5">
+            <p5:CarInventoryKey>
+                <p5:CarCatalogKey>
+                    <p7:VendorSupplierID>40</p7:VendorSupplierID>
+                    <p5:CarVehicle>
+                        <p5:CarCategoryCode>6</p5:CarCategoryCode>
+                        <p5:CarTypeCode>1</p5:CarTypeCode>
+                        <p5:CarTransmissionDriveCode>3</p5:CarTransmissionDriveCode>
+                        <p5:CarFuelACCode>1</p5:CarFuelACCode>
+                    </p5:CarVehicle>
+                    <p5:CarPickupLocationKey p5:CarVendorLocationID="1554">
+                        <LocationCode xmlns="urn:expedia:e3:data:placetypes:defn:v4">LHR</LocationCode>
+                        <p5:CarLocationCategoryCode>T</p5:CarLocationCategoryCode>
+                        <p7:SupplierRawText>050</p7:SupplierRawText>
+                    </p5:CarPickupLocationKey>
+                    <p5:CarDropOffLocationKey p5:CarVendorLocationID="1554">
+                        <LocationCode xmlns="urn:expedia:e3:data:placetypes:defn:v4">LHR</LocationCode>
+                        <p5:CarLocationCategoryCode>T</p5:CarLocationCategoryCode>
+                        <p7:SupplierRawText>050</p7:SupplierRawText>
+                    </p5:CarDropOffLocationKey>
+                </p5:CarCatalogKey>
+                <p5:CarPickUpDateTime>2017-08-18T10:13:00</p5:CarPickUpDateTime>
+                <p5:CarDropOffDateTime>2017-08-27T10:13:00</p5:CarDropOffDateTime>
+                <p5:CarRate>
+                    <RatePeriodCode xmlns="urn:expedia:e3:data:financetypes:defn:v4">Daily</RatePeriodCode>
+                    <RateCategoryCode xmlns="urn:expedia:e3:data:financetypes:defn:v4">Standard</RateCategoryCode>
+                    <RateCode xmlns="urn:expedia:e3:data:financetypes:defn:v4">WOW</RateCode>
+                    <CorporateDiscountCode xmlns="urn:expedia:e3:data:financetypes:defn:v4">689349</CorporateDiscountCode>
+                </p5:CarRate>
+                <p5:PackageBoolean>false</p5:PackageBoolean>
+                <p5:PostPurchaseBoolean>false</p5:PostPurchaseBoolean>
+                <p7:ProductCategoryCodeList>
+                    <p7:ProductCategoryCode>Car</p7:ProductCategoryCode>
+                </p7:ProductCategoryCodeList>
+                <p7:SupplySubsetID>1370</p7:SupplySubsetID>
+                <p5:CarItemID>90029</p5:CarItemID>
+            </p5:CarInventoryKey>
+            <p7:AvailStatusCode>A</p7:AvailStatusCode>
+            <p5:CarPickupLocation>
+                <p5:CarLocationKey p5:CarVendorLocationID="1554">
+                    <LocationCode xmlns="urn:expedia:e3:data:placetypes:defn:v4">LHR</LocationCode>
+                    <p5:CarLocationCategoryCode>T</p5:CarLocationCategoryCode>
+                    <p7:SupplierRawText>050</p7:SupplierRawText>
+                </p5:CarLocationKey>
+            </p5:CarPickupLocation>
+            <p5:CarDropOffLocation>
+                <p5:CarLocationKey p5:CarVendorLocationID="1554">
+                    <LocationCode xmlns="urn:expedia:e3:data:placetypes:defn:v4">LHR</LocationCode>
+                    <p5:CarLocationCategoryCode>T</p5:CarLocationCategoryCode>
+                    <p7:SupplierRawText>050</p7:SupplierRawText>
+                </p5:CarLocationKey>
+            </p5:CarDropOffLocation>
+            <p5:CarMileage>
+                <p7:FreeDistance>
+                    <p7:DistanceUnitCount>-1</p7:DistanceUnitCount>
+                </p7:FreeDistance>
+                <p5:FreeDistanceRatePeriodCode>Daily</p5:FreeDistanceRatePeriodCode>
+            </p5:CarMileage>
+            <p5:CarRateDetail>
+                <ConditionalCostPriceList xmlns="urn:expedia:e3:data:financetypes:defn:v4" />
+            </p5:CarRateDetail>
+            <CostList xmlns="urn:expedia:e3:data:financetypes:defn:v4">
+                <Cost>
+                    <MultiplierOrAmount>
+                        <CurrencyAmount>
+                            <CurrencyCode>GBP</CurrencyCode>
+                            <p7:Amount p7:DecimalPlaceCount="2">
+                                <p7:Decimal>10099</p7:Decimal>
+                            </p7:Amount>
+                        </CurrencyAmount>
+                    </MultiplierOrAmount>
+                    <FinanceCategoryCode>Base</FinanceCategoryCode>
+                    <FinanceApplicationCode>Daily</FinanceApplicationCode>
+                    <FinanceApplicationUnitCount>2</FinanceApplicationUnitCount>
+                    <LegacyFinanceKey>
+                        <LegacyMonetaryClassID>1</LegacyMonetaryClassID>
+                        <LegacyMonetaryCalculationSystemID>1</LegacyMonetaryCalculationSystemID>
+                        <LegacyMonetaryCalculationID>7</LegacyMonetaryCalculationID>
+                    </LegacyFinanceKey>
+                    <p7:DescriptionRawText>Base</p7:DescriptionRawText>
+                </Cost>
+                <Cost>
+                    <MultiplierOrAmount>
+                        <CurrencyAmount>
+                            <CurrencyCode>GBP</CurrencyCode>
+                            <p7:Amount p7:DecimalPlaceCount="2">
+                                <p7:Decimal>6584</p7:Decimal>
+                            </p7:Amount>
+                        </CurrencyAmount>
+                    </MultiplierOrAmount>
+                    <FinanceCategoryCode>Misc</FinanceCategoryCode>
+                    <FinanceApplicationCode>Trip</FinanceApplicationCode>
+                    <FinanceApplicationUnitCount>1</FinanceApplicationUnitCount>
+                    <LegacyFinanceKey>
+                        <LegacyMonetaryClassID>8</LegacyMonetaryClassID>
+                        <LegacyMonetaryCalculationSystemID>1</LegacyMonetaryCalculationSystemID>
+                        <LegacyMonetaryCalculationID>6</LegacyMonetaryCalculationID>
+                    </LegacyFinanceKey>
+                    <p7:DescriptionRawText>misc charges (taxes, fees, etc) (vendor currency)</p7:DescriptionRawText>
+                </Cost>
+                <Cost>
+                    <MultiplierOrAmount>
+                        <CurrencyAmount>
+                            <CurrencyCode>GBP</CurrencyCode>
+                            <p7:Amount p7:DecimalPlaceCount="4">
+                                <p7:Decimal>0</p7:Decimal>
+                            </p7:Amount>
+                        </CurrencyAmount>
+                    </MultiplierOrAmount>
+                    <FinanceCategoryCode>Fee</FinanceCategoryCode>
+                    <FinanceApplicationCode>Trip</FinanceApplicationCode>
+                    <FinanceApplicationUnitCount>1</FinanceApplicationUnitCount>
+                    <LegacyFinanceKey>
+                        <LegacyMonetaryClassID>0</LegacyMonetaryClassID>
+                        <LegacyMonetaryCalculationSystemID>1</LegacyMonetaryCalculationSystemID>
+                        <LegacyMonetaryCalculationID>3</LegacyMonetaryCalculationID>
+                    </LegacyFinanceKey>
+                    <p7:DescriptionRawText>Merchant Car Expedia Cancellation Fee</p7:DescriptionRawText>
+                </Cost>
+                <Cost>
+                    <MultiplierOrAmount>
+                        <CurrencyAmount>
+                            <CurrencyCode>GBP</CurrencyCode>
+                            <p7:Amount p7:DecimalPlaceCount="2">
+                                <p7:Decimal>26782</p7:Decimal>
+                            </p7:Amount>
+                        </CurrencyAmount>
+                    </MultiplierOrAmount>
+                    <FinanceCategoryCode>Total</FinanceCategoryCode>
+                    <FinanceApplicationCode>Total</FinanceApplicationCode>
+                    <FinanceApplicationUnitCount>1</FinanceApplicationUnitCount>
+                    <LegacyFinanceKey>
+                        <LegacyMonetaryClassID>0</LegacyMonetaryClassID>
+                        <LegacyMonetaryCalculationSystemID>0</LegacyMonetaryCalculationSystemID>
+                        <LegacyMonetaryCalculationID>0</LegacyMonetaryCalculationID>
+                    </LegacyFinanceKey>
+                    <p7:DescriptionRawText>Total (vendor currency)</p7:DescriptionRawText>
+                </Cost>
+            </CostList>
+            <PriceList xmlns="urn:expedia:e3:data:financetypes:defn:v4">
+                <Price>
+                    <MultiplierOrAmount>
+                        <CurrencyAmount>
+                            <CurrencyCode>GBP</CurrencyCode>
+                            <p7:Amount p7:DecimalPlaceCount="2">
+                                <p7:Decimal>33745</p7:Decimal>
+                            </p7:Amount>
+                        </CurrencyAmount>
+                    </MultiplierOrAmount>
+                    <FinanceCategoryCode>Base</FinanceCategoryCode>
+                    <FinanceApplicationCode>Trip</FinanceApplicationCode>
+                    <FinanceApplicationUnitCount>1</FinanceApplicationUnitCount>
+                    <p7:DescriptionRawText>Base</p7:DescriptionRawText>
+                </Price>
+                <Price>
+                    <MultiplierOrAmount>
+                        <CurrencyAmount>
+                            <CurrencyCode>GBP</CurrencyCode>
+                            <p7:Amount p7:DecimalPlaceCount="2">
+                                <p7:Decimal>33745</p7:Decimal>
+                            </p7:Amount>
+                        </CurrencyAmount>
+                    </MultiplierOrAmount>
+                    <FinanceCategoryCode>Total</FinanceCategoryCode>
+                    <FinanceApplicationCode>Trip</FinanceApplicationCode>
+                    <FinanceApplicationUnitCount>1</FinanceApplicationUnitCount>
+                    <p7:DescriptionRawText>Total</p7:DescriptionRawText>
+                </Price>
+                <Price>
+                    <MultiplierOrAmount>
+                        <CurrencyAmount>
+                            <CurrencyCode>GBP</CurrencyCode>
+                            <p7:Amount p7:DecimalPlaceCount="2">
+                                <p7:Decimal>6963</p7:Decimal>
+                            </p7:Amount>
+                        </CurrencyAmount>
+                    </MultiplierOrAmount>
+                    <FinanceCategoryCode>MaxMarginAmt</FinanceCategoryCode>
+                    <FinanceApplicationCode>Trip</FinanceApplicationCode>
+                    <FinanceApplicationUnitCount>1</FinanceApplicationUnitCount>
+                    <p7:DescriptionRawText>MaxMarginAmt</p7:DescriptionRawText>
+                </Price>
+                <Price>
+                    <MultiplierOrAmount>
+                        <CurrencyAmount>
+                            <CurrencyCode>GBP</CurrencyCode>
+                            <p7:Amount p7:DecimalPlaceCount="2">
+                                <p7:Decimal>268</p7:Decimal>
+                            </p7:Amount>
+                        </CurrencyAmount>
+                    </MultiplierOrAmount>
+                    <FinanceCategoryCode>MinMarginAmt</FinanceCategoryCode>
+                    <FinanceApplicationCode>Trip</FinanceApplicationCode>
+                    <FinanceApplicationUnitCount>1</FinanceApplicationUnitCount>
+                    <p7:DescriptionRawText>MinMarginAmt</p7:DescriptionRawText>
+                </Price>
+                <Price>
+                    <MultiplierOrAmount>
+                        <CurrencyAmount>
+                            <CurrencyCode>GBP</CurrencyCode>
+                            <p7:Amount p7:DecimalPlaceCount="2">
+                                <p7:Decimal>33745</p7:Decimal>
+                            </p7:Amount>
+                        </CurrencyAmount>
+                    </MultiplierOrAmount>
+                    <FinanceCategoryCode>EstimatedTotalCostToCustomer</FinanceCategoryCode>
+                    <FinanceApplicationCode>Trip</FinanceApplicationCode>
+                    <FinanceApplicationUnitCount>1</FinanceApplicationUnitCount>
+                    <p7:DescriptionRawText>Estimated total cost to customer including mandatory charges payable at the counter.</p7:DescriptionRawText>
+                </Price>
+            </PriceList>
+            <p5:UpgradeCarProductTokenList>
+                <p5:CarProductToken>AQAQAQKBgtIJIMKJIMMKXJlAE4xa6VAUADSAFQ9ekBWMoomAGtvwWwAQM</p5:CarProductToken>
+            </p5:UpgradeCarProductTokenList>
+            <p5:CarCatalogMakeModel>
+                <p5:CarMakeString>Saab 95</p5:CarMakeString>
+                <p5:CarCapacityAdultCount>5</p5:CarCapacityAdultCount>
+                <p5:CarCapacityChildCount>4</p5:CarCapacityChildCount>
+                <p5:CarMinDoorCount>3</p5:CarMinDoorCount>
+                <p5:CarMaxDoorCount>5</p5:CarMaxDoorCount>
+                <p5:CarCapacitySmallLuggageCount>1</p5:CarCapacitySmallLuggageCount>
+                <p5:CarCapacityLargeLuggageCount>2</p5:CarCapacityLargeLuggageCount>
+                <p7:MediaID>83190</p7:MediaID>
+                <p5:ImageFilenameString>/40/ZE_GBR_Saab_95_FC_20160705_s.jpg</p5:ImageFilenameString>
+                <p5:ImageThumbnailFilenameString>/40/ZE_GBR_Saab_95_FC_20160705_t.jpg</p5:ImageThumbnailFilenameString>
+                <p5:CarFeatureString />
+            </p5:CarCatalogMakeModel>
+            <ReservationGuaranteeCategory xmlns="urn:expedia:e3:data:financetypes:defn:v4">Optional</ReservationGuaranteeCategory>
+            <p5:CarMarkupInfo>
+                <AppliedMarkupRate p7:DecimalPlaceCount="4" xmlns="">
+                    <p7:Decimal>2600</p7:Decimal>
+                </AppliedMarkupRate>
+                <AppliedMarkupRuleList xmlns="">
+                    <p5:CarMarkupRuleInfo>
+                        <p5:CarMarkupRuleID>2542</p5:CarMarkupRuleID>
+                        <p5:CarMarkupRuleCategoryID>1</p5:CarMarkupRuleCategoryID>
+                        <p5:CarMarkupRuleWeightedRank>0</p5:CarMarkupRuleWeightedRank>
+                        <p5:CarMarkupRate p7:DecimalPlaceCount="4">
+                            <p7:Decimal>2600</p7:Decimal>
+                        </p5:CarMarkupRate>
+                    </p5:CarMarkupRuleInfo>
+                    <p5:CarMarkupRuleInfo>
+                        <p5:CarMarkupRuleID>21736</p5:CarMarkupRuleID>
+                        <p5:CarMarkupRuleCategoryID>3</p5:CarMarkupRuleCategoryID>
+                        <p5:CarMarkupRuleWeightedRank>0</p5:CarMarkupRuleWeightedRank>
+                        <p5:CarMarkupRate p7:DecimalPlaceCount="4">
+                            <p7:Decimal>100</p7:Decimal>
+                        </p5:CarMarkupRate>
+                    </p5:CarMarkupRuleInfo>
+                </AppliedMarkupRuleList>
+                <FilteredMarkupRuleList xmlns="">
+                    <p5:CarMarkupRuleInfo>
+                        <p5:CarMarkupRuleID>2542</p5:CarMarkupRuleID>
+                        <p5:CarMarkupRuleCategoryID>1</p5:CarMarkupRuleCategoryID>
+                        <p5:CarMarkupRuleWeightedRank>0</p5:CarMarkupRuleWeightedRank>
+                    </p5:CarMarkupRuleInfo>
+                    <p5:CarMarkupRuleInfo>
+                        <p5:CarMarkupRuleID>21734</p5:CarMarkupRuleID>
+                        <p5:CarMarkupRuleCategoryID>3</p5:CarMarkupRuleCategoryID>
+                        <p5:CarMarkupRuleWeightedRank>0</p5:CarMarkupRuleWeightedRank>
+                    </p5:CarMarkupRuleInfo>
+                    <p5:CarMarkupRuleInfo>
+                        <p5:CarMarkupRuleID>21735</p5:CarMarkupRuleID>
+                        <p5:CarMarkupRuleCategoryID>3</p5:CarMarkupRuleCategoryID>
+                        <p5:CarMarkupRuleWeightedRank>0</p5:CarMarkupRuleWeightedRank>
+                    </p5:CarMarkupRuleInfo>
+                    <p5:CarMarkupRuleInfo>
+                        <p5:CarMarkupRuleID>21736</p5:CarMarkupRuleID>
+                        <p5:CarMarkupRuleCategoryID>3</p5:CarMarkupRuleCategoryID>
+                        <p5:CarMarkupRuleWeightedRank>0</p5:CarMarkupRuleWeightedRank>
+                    </p5:CarMarkupRuleInfo>
+                </FilteredMarkupRuleList>
+            </p5:CarMarkupInfo>
+            <p5:PrePayBoolean>true</p5:PrePayBoolean>
+            <p5:MerchantOfRecord>Expedia</p5:MerchantOfRecord>
+            <p5:ProviderID>0</p5:ProviderID>
+        </CarProduct>
+    </CarProductList>
+    <CurrencyCode xmlns="urn:expedia:e3:data:financetypes:defn:v4">GBP</CurrencyCode>
+    <PurchaseTypeMask>128</PurchaseTypeMask>
+    <DisableCostListProcessingBoolean>false</DisableCostListProcessingBoolean>
+</CarECommerceGetDetailsRequest>

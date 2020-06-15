@@ -1,0 +1,1706 @@
+{
+	"CCSR-Search-OnAirport":{
+		"MessageInfo":"CarSupplyConnectivitySearchRequest",
+		"AuditLogTrackingData":{
+			"LogonUserKey":"",
+			"TravelerUserKey":"",
+			"AuditLogGUID":"22cb1fd6-6bfd-42c2-ab54-0b7369162411",
+			"AuditLogTPID":"20",
+			"AuditLogEAPID":"0",
+			"AuditLogGPID":"0",
+			"AuditLogLanguageId":"1036",
+			"AuditLogForceLogging":true,
+			"AuditLogForceDownstreamTransaction":true
+		},
+		"PointOfSaleKey":{
+			"JurisdictionCountryCode":"FRA",
+			"CompanyCode":"10111",
+			"ManagementUnitCode":"1060"
+		},
+		"Language":{
+			"LanguageCode":"fr",
+			"CountryAlpha2Code":"FR"
+		},
+		"CarSearchStrategy":{
+			"PricingVisibilityBoolean":true,
+			"PackageBoolean":false
+		},
+		"CarSearchCriteriaList":[
+			{
+				"Sequence":101,
+				"SupplySubsetIDEntryList": [
+					"15625"
+				],
+				"CarTransportationSegment":{
+					"StartCarLocationKey":{
+						"LocationCode":"LHR"
+					},
+
+					"EndCarLocationKey":{
+						"LocationCode":"LHR"
+					},
+					"SegmentDateTimeRange":{
+						"StartDateTime":"2016-11-19T12:41:00",
+						"EndDateTime":"2016-11-22T11:41:00"
+					}
+				},
+				"CarVehicleList":[
+					{
+						 "CarCategoryCode":0,
+						 "CarTypeCode":0,
+						 "CarTransmissionDriveCode":0,
+						 "CarFuelACCode":0
+					}
+				],
+				"VendorSupplierIDList":[
+					"14",
+					"15"
+				],
+				"CurrencyCode":"EUR",
+				"CarRate":null,
+				"SmokingBoolean":false,
+				"PrePaidFuelBoolean":false,
+				"UnlimitedMileageBoolean":false,
+				"PackageBoolean":true
+			},
+
+			{
+				"Sequence":201,
+				"SupplySubsetIDEntryList":[
+					"15624"
+				],
+				"CarTransportationSegment":{
+					"StartCarLocationKey":{
+						"LocationCode":"LHR"
+					},
+					"EndCarLocationKey":{
+						"LocationCode":"LHR"
+					},
+					"SegmentDateTimeRange":{
+						"StartDateTime":"2016-11-19T12:41:00",
+						"EndDateTime":"2016-11-22T11:41:00"
+					}
+				},
+				"CarVehicleList":[
+					{
+						 "CarCategoryCode":0,
+						 "CarTypeCode":0,
+						 "CarTransmissionDriveCode":0,
+						 "CarFuelACCode":0
+					}
+				],
+				"VendorSupplierIDList":[
+					"14",
+					"15"
+				],
+				"CurrencyCode":"EUR",
+				"CarRate":null,
+				"SmokingBoolean":false,
+				"PrePaidFuelBoolean":false,
+				"UnlimitedMileageBoolean":false,
+				"PackageBoolean":false
+			},
+
+			{
+				"Sequence":204,
+				"SupplySubsetIDEntryList":[
+					"15525"
+				],
+				"CarTransportationSegment":{
+					"StartCarLocationKey":{
+						"LocationCode":"LHR"
+					},
+					"EndCarLocationKey":{
+						"LocationCode":"LHR"
+					},
+					"SegmentDateTimeRange":{
+						"StartDateTime":"2016-11-19T12:41:00",
+						"EndDateTime":"2016-11-22T11:41:00"
+					}
+				},
+				"CarVehicleList":[
+					{
+						 "CarCategoryCode":0,
+						 "CarTypeCode":0,
+						 "CarTransmissionDriveCode":0,
+						 "CarFuelACCode":0
+					}
+				],
+				"VendorSupplierIDList":[
+					"43",
+					"15"
+				],
+				"CurrencyCode":"EUR",
+				"CarRate":null,
+				"SmokingBoolean":false,
+				"PrePaidFuelBoolean":false,
+				"UnlimitedMileageBoolean":false,
+				"PackageBoolean":false
+			},
+
+			{
+				"Sequence":205,
+				"SupplySubsetIDEntryList":[
+					"15448"
+				],
+				"CarTransportationSegment":{
+					"StartCarLocationKey":{
+						"LocationCode":"LHR"
+					},
+					"EndCarLocationKey":{
+						"LocationCode":"LHR"
+					},
+					"SegmentDateTimeRange":{
+						"StartDateTime":"2016-11-19T12:41:00",
+						"EndDateTime":"2016-11-22T11:41:00"
+					}
+				},
+				"CarVehicleList":[
+					{
+						 "CarCategoryCode":0,
+						 "CarTypeCode":0,
+						 "CarTransmissionDriveCode":0,
+						 "CarFuelACCode":0
+					}
+				],
+				"VendorSupplierIDList":[
+					"40",
+					"15"
+				],
+				"CurrencyCode":"EUR",
+				"CarRate":null,
+				"SmokingBoolean":false,
+				"PrePaidFuelBoolean":false,
+				"UnlimitedMileageBoolean":false,
+				"PackageBoolean":false
+			},
+
+			{
+				"Sequence":206,
+				"SupplySubsetIDEntryList":[
+					"15586"
+				],
+				"CarTransportationSegment":{
+					"StartCarLocationKey":{
+						"LocationCode":"LHR"
+					},
+					"EndCarLocationKey":{
+						"LocationCode":"LHR"
+					},
+					"SegmentDateTimeRange":{
+						"StartDateTime":"2016-11-19T12:41:00",
+						"EndDateTime":"2016-11-22T11:41:00"
+					}
+				},
+				"CarVehicleList":[
+					{
+						 "CarCategoryCode":0,
+						 "CarTypeCode":0,
+						 "CarTransmissionDriveCode":0,
+						 "CarFuelACCode":0
+					}
+				],
+				"VendorSupplierIDList":[
+					"35",
+					"15"
+				],
+				"CurrencyCode":"EUR",
+				"CarRate":null,
+				"SmokingBoolean":false,
+				"PrePaidFuelBoolean":false,
+				"UnlimitedMileageBoolean":false,
+				"PackageBoolean":false
+			},
+
+			{
+				"Sequence":208,
+				"SupplySubsetIDEntryList":[
+					"15599"
+				],
+				"CarTransportationSegment":{
+					"StartCarLocationKey":{
+						"LocationCode":"LHR"
+					},
+					"EndCarLocationKey":{
+						"LocationCode":"LHR"
+					},
+					"SegmentDateTimeRange":{
+						"StartDateTime":"2016-11-19T12:41:00",
+						"EndDateTime":"2016-11-22T11:41:00"
+					}
+				},
+				"CarVehicleList":[
+					{
+						 "CarCategoryCode":0,
+						 "CarTypeCode":0,
+						 "CarTransmissionDriveCode":0,
+						 "CarFuelACCode":0
+					}
+				],
+				"VendorSupplierIDList":[
+					"15"
+				],
+				"CurrencyCode":"EUR",
+				"CarRate":null,
+				"SmokingBoolean":false,
+				"PrePaidFuelBoolean":false,
+				"UnlimitedMileageBoolean":false,
+				"PackageBoolean":false
+			},
+
+			{
+				"Sequence":209,
+				"SupplySubsetIDEntryList":[
+					"15563"
+				],
+				"CarTransportationSegment":{
+					"StartCarLocationKey":{
+						"LocationCode":"LHR"
+					},
+					"EndCarLocationKey":{
+						"LocationCode":"LHR"
+					},
+					"SegmentDateTimeRange":{
+						"StartDateTime":"2016-11-19T12:41:00",
+						"EndDateTime":"2016-11-22T11:41:00"
+					}
+				},
+				"CarVehicleList":[
+					{
+						 "CarCategoryCode":0,
+						 "CarTypeCode":0,
+						 "CarTransmissionDriveCode":0,
+						 "CarFuelACCode":0
+					}
+				],
+				"VendorSupplierIDList":[
+					"6",
+					"15"
+				],
+				"CurrencyCode":"EUR",
+				"CarRate":null,
+				"SmokingBoolean":false,
+				"PrePaidFuelBoolean":false,
+				"UnlimitedMileageBoolean":false,
+				"PackageBoolean":false
+			}
+		]
+	},
+
+	"CCSR-Search-OffAirport":{
+		"MessageInfo":"CarSupplyConnectivitySearchRequest",	
+		"AuditLogTrackingData":{
+			"LogonUserKey":"",
+			"TravelerUserKey":"",
+			"AuditLogGUID":"f7602074-4a89-47fa-a46f-1bf0e85ce0d8",
+			"AuditLogTPID":"1",
+			"AuditLogEAPID":"0",
+			"AuditLogGPID":"0",
+			"AuditLogLanguageId":"1033",
+			"AuditLogForceLogging":true,
+			"AuditLogForceDownstreamTransaction":true
+		},
+		"PointOfSaleKey":{
+			"JurisdictionCountryCode":"USA",
+			"CompanyCode":"10111",
+			"ManagementUnitCode":"1010"
+		},
+		"Language":{
+			"LanguageCode":"en",
+			"CountryAlpha2Code":"US"
+		},
+		"CarSearchStrategy":{
+			"PricingVisibilityBoolean":true,
+			"PackageBoolean":false
+		},
+
+		"CarSearchCriteriaList":[
+			{
+				"Sequence":1301,
+				"SupplySubsetIDEntryList":[
+					"5974"
+				],
+				"CarTransportationSegment":{
+					"StartCarLocationKey":{
+						"CarVendorLocationID":"21528",
+						"LocationCode":"SEA",
+						"CarLocationCategoryCode":"C",
+						"SupplierRawText":"001"
+					},
+					"EndCarLocationKey":{
+						"CarVendorLocationID":"21528",
+						"LocationCode":"SEA",
+						"CarLocationCategoryCode":"C",
+						"SupplierRawText":"001"
+					},
+					"SegmentDateTimeRange":{
+						"StartDateTime":"2016-11-19T12:41:00",
+						"EndDateTime":"2016-11-22T11:41:00"
+					}
+				},
+				"CarVehicleList":[
+					{
+						 "CarCategoryCode":0,
+						 "CarTypeCode":0,
+						 "CarTransmissionDriveCode":0,
+						 "CarFuelACCode":0
+					}
+				],
+				"VendorSupplierIDList":[
+					"40"
+				],
+				"CurrencyCode":"USD",
+				"CarRate":null,
+				"SmokingBoolean":false,
+				"PrePaidFuelBoolean":false,
+				"UnlimitedMileageBoolean":false,
+				"PackageBoolean":false
+			},
+
+			{
+				"Sequence":1301,
+				"SupplySubsetIDEntryList":[
+					"5974"
+				],
+				"CarTransportationSegment":{
+					"StartCarLocationKey":{
+						"CarVendorLocationID":"21528",
+						"LocationCode":"SEA",
+						"CarLocationCategoryCode":"T",
+						"SupplierRawText":"001"
+					},
+					"EndCarLocationKey":{
+						"CarVendorLocationID":"21528",
+						"LocationCode":"SEA",
+						"CarLocationCategoryCode":"T",
+						"SupplierRawText":"001"
+					},
+					"SegmentDateTimeRange":{
+						"StartDateTime":"2016-11-19T12:41:00",
+						"EndDateTime":"2016-11-22T11:41:00"
+					}
+				},
+				"CarVehicleList":[
+					{
+						 "CarCategoryCode":0,
+						 "CarTypeCode":0,
+						 "CarTransmissionDriveCode":0,
+						 "CarFuelACCode":0
+					}
+				],
+				"VendorSupplierIDList":[
+					"40"
+				],
+				"CurrencyCode":"USD",
+				"CarRate":null,
+				"SmokingBoolean":false,
+				"PrePaidFuelBoolean":false,
+				"UnlimitedMileageBoolean":false,
+				"PackageBoolean":false
+			},
+
+			{
+				"Sequence":1301,
+				"SupplySubsetIDEntryList":[
+					"5974"
+				],
+				"CarTransportationSegment":{
+					"StartCarLocationKey":{
+						"CarVendorLocationID":"21528",
+						"LocationCode":"SEA",
+						"CarLocationCategoryCode":"I",
+						"SupplierRawText":"001"
+					},
+					"EndCarLocationKey":{
+						"CarVendorLocationID":"21528",
+						"LocationCode":"SEA",
+						"CarLocationCategoryCode":"I",
+						"SupplierRawText":"001"
+					},
+					"SegmentDateTimeRange":{
+						"StartDateTime":"2016-11-19T12:41:00",
+						"EndDateTime":"2016-11-22T11:41:00"
+					}
+				},
+				"CarVehicleList":[
+					{
+						 "CarCategoryCode":0,
+						 "CarTypeCode":0,
+						 "CarTransmissionDriveCode":0,
+						 "CarFuelACCode":0
+					}
+				],
+				"VendorSupplierIDList":[
+					"40"
+				],
+				"CurrencyCode":"USD",
+				"CarRate":null,
+				"SmokingBoolean":false,
+				"PrePaidFuelBoolean":false,
+				"UnlimitedMileageBoolean":false,
+				"PackageBoolean":false
+			}
+		]
+	},
+
+	"FRA_Standalone_OneWay_OnAirport_CERTTEST2_SPECIALEQUIP" : {
+		"AuditLogTrackingData" : {
+			"LogonUserKey" : "1083451",
+			"TravelerUserKey" : "1083451",
+			"AuditLogGUID" : "ad46b54b-2c87-4ced-9e72-5a7f4824c8b6",
+			"AuditLogTPID" : "3",
+			"AuditLogEAPID" : "0",
+			"AuditLogGPID" : "0",
+			"AuditLogLanguageId" : "1036",
+			"AuditLogForceLogging" : false,
+			"AuditLogForceDownstreamTransaction" : false
+		},
+		"PointOfSaleKey" : {
+			"JurisdictionCountryCode" : "GBR",
+			"CompanyCode" : "10111",
+			"ManagementUnitCode" : "1050"
+		},
+		"Language" : {
+			"LanguageCode" : null,
+			"CountryAlpha2Code" : null
+		},
+		"CarSearchStrategy" : {
+			"PricingVisibilityBoolean" : true,
+			"PackageBoolean" : false
+		},
+		"CarSearchCriteriaList" : [ {
+			"SupplySubsetIDEntryList" : [ "16327" ],
+			"CarTransportationSegment" : {
+				"StartCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "LHR",
+					"SupplierRawText" : null
+				},
+				"EndCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "LHR",
+					"SupplierRawText" : null
+				},
+				"SegmentDateTimeRange" : {
+					"StartDateTime" : "2017-06-25T12:27:47.023-07:00",
+					"EndDateTime" : "2017-06-28T12:27:47.023-07:00"
+				}
+			},
+			"CarVehicleList" : [ {
+				"CarCategoryCode" : 1,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 2,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 3,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 4,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 5,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 6,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 7,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 8,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 9,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			} ],
+			"VendorSupplierIDList" : [ "14" ],
+			"CarRate" : { },
+			"Sequence" : 101,
+			"CurrencyCode" : "GBP",
+			"SmokingBoolean" : false,
+			"PrePaidFuelBoolean" : false,
+			"UnlimitedMileageBoolean" : false,
+			"PackageBoolean" : false
+		} ]
+	},
+
+	"GBR_Standalone_OneWay_OnAirport_CERTTEST3" : {
+		"AuditLogTrackingData" : {
+			"LogonUserKey" : "1083452",
+			"TravelerUserKey" : "1083452",
+			"AuditLogGUID" : "093f334e-150d-47c0-8ccc-c936e36f7eeb",
+			"AuditLogTPID" : "3",
+			"AuditLogEAPID" : "0",
+			"AuditLogGPID" : "0",
+			"AuditLogLanguageId" : "1036",
+			"AuditLogForceLogging" : false,
+			"AuditLogForceDownstreamTransaction" : false
+		},
+		"PointOfSaleKey" : {
+			"JurisdictionCountryCode" : "GBR",
+			"CompanyCode" : "10111",
+			"ManagementUnitCode" : "1050"
+		},
+		"Language" : {
+			"LanguageCode" : null,
+			"CountryAlpha2Code" : null
+		},
+		"CarSearchStrategy" : {
+			"PricingVisibilityBoolean" : true,
+			"PackageBoolean" : false
+		},
+		"CarSearchCriteriaList" : [ {
+			"SupplySubsetIDEntryList" : [ "16327" ],
+			"CarTransportationSegment" : {
+				"StartCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "LHR",
+					"SupplierRawText" : null
+				},
+				"EndCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "LHR",
+					"SupplierRawText" : null
+				},
+				"SegmentDateTimeRange" : {
+					"StartDateTime" : "2017-06-25T12:27:54.143-07:00",
+					"EndDateTime" : "2017-06-28T12:27:54.143-07:00"
+				}
+			},
+			"CarVehicleList" : [ {
+				"CarCategoryCode" : 1,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 2,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 3,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 4,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 5,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 6,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 7,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 8,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 9,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			} ],
+			"VendorSupplierIDList" : [ "14" ],
+			"CarRate" : { },
+			"Sequence" : 101,
+			"CurrencyCode" : "GBP",
+			"SmokingBoolean" : false,
+			"PrePaidFuelBoolean" : false,
+			"UnlimitedMileageBoolean" : false,
+			"PackageBoolean" : false
+		} ]
+	},
+
+	"GBR_Standalone_RoundTrip_OnAirport_TiSCS" : {
+		"AuditLogTrackingData" : {
+			"LogonUserKey" : "1459",
+			"TravelerUserKey" : "1459",
+			"AuditLogGUID" : "c2e23aa4-b2ec-4394-8aa4-99ae5928657a",
+			"AuditLogTPID" : "3",
+			"AuditLogEAPID" : "0",
+			"AuditLogGPID" : "0",
+			"AuditLogLanguageId" : "1036",
+			"AuditLogForceLogging" : false,
+			"AuditLogForceDownstreamTransaction" : false
+		},
+		"PointOfSaleKey" : {
+			"JurisdictionCountryCode" : "GBR",
+			"CompanyCode" : "10111",
+			"ManagementUnitCode" : "1050"
+		},
+		"Language" : {
+			"LanguageCode" : null,
+			"CountryAlpha2Code" : null
+		},
+		"CarSearchStrategy" : {
+			"PricingVisibilityBoolean" : true,
+			"PackageBoolean" : false
+		},
+		"CarSearchCriteriaList" : [ {
+			"SupplySubsetIDEntryList" : [ "15873" ],
+			"CarTransportationSegment" : {
+				"StartCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "LHR",
+					"SupplierRawText" : null
+				},
+				"EndCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "LHR",
+					"SupplierRawText" : null
+				},
+				"SegmentDateTimeRange" : {
+					"StartDateTime" : "2017-06-23T18:15:49.554-07:00",
+					"EndDateTime" : "2017-06-26T18:15:49.554-07:00"
+				}
+			},
+			"CarVehicleList" : [ {
+				"CarCategoryCode" : 1,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 2,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 3,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 4,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 5,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 6,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 7,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 8,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 9,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			} ],
+			"VendorSupplierIDList" : [ "6", "15", "41", "42" ],
+			"CarRate" : { },
+			"Sequence" : 101,
+			"CurrencyCode" : "GBP",
+			"SmokingBoolean" : false,
+			"PrePaidFuelBoolean" : false,
+			"UnlimitedMileageBoolean" : false,
+			"PackageBoolean" : false
+		}, {
+			"SupplySubsetIDEntryList" : [ "16115" ],
+			"CarTransportationSegment" : {
+				"StartCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "LHR",
+					"SupplierRawText" : null
+				},
+				"EndCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "LHR",
+					"SupplierRawText" : null
+				},
+				"SegmentDateTimeRange" : {
+					"StartDateTime" : "2017-06-23T18:15:49.554-07:00",
+					"EndDateTime" : "2017-06-26T18:15:49.554-07:00"
+				}
+			},
+			"CarVehicleList" : [ {
+				"CarCategoryCode" : 1,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 2,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 3,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 4,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 5,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 6,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 7,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 8,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 9,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			} ],
+			"VendorSupplierIDList" : [ "35" ],
+			"CarRate" : { },
+			"Sequence" : 102,
+			"CurrencyCode" : "GBP",
+			"SmokingBoolean" : false,
+			"PrePaidFuelBoolean" : false,
+			"UnlimitedMileageBoolean" : false,
+			"PackageBoolean" : false
+		}, {
+			"SupplySubsetIDEntryList" : [ "16166" ],
+			"CarTransportationSegment" : {
+				"StartCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "LHR",
+					"SupplierRawText" : null
+				},
+				"EndCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "LHR",
+					"SupplierRawText" : null
+				},
+				"SegmentDateTimeRange" : {
+					"StartDateTime" : "2017-06-23T18:15:49.554-07:00",
+					"EndDateTime" : "2017-06-26T18:15:49.554-07:00"
+				}
+			},
+			"CarVehicleList" : [ {
+				"CarCategoryCode" : 1,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 2,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 3,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 4,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 5,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 6,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 7,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 8,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 9,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			} ],
+			"VendorSupplierIDList" : [ "39" ],
+			"CarRate" : { },
+			"Sequence" : 103,
+			"CurrencyCode" : "GBP",
+			"SmokingBoolean" : false,
+			"PrePaidFuelBoolean" : false,
+			"UnlimitedMileageBoolean" : false,
+			"PackageBoolean" : false
+		}, {
+			"SupplySubsetIDEntryList" : [ "16327" ],
+			"CarTransportationSegment" : {
+				"StartCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "LHR",
+					"SupplierRawText" : null
+				},
+				"EndCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "LHR",
+					"SupplierRawText" : null
+				},
+				"SegmentDateTimeRange" : {
+					"StartDateTime" : "2017-06-23T18:15:49.554-07:00",
+					"EndDateTime" : "2017-06-26T18:15:49.554-07:00"
+				}
+			},
+			"CarVehicleList" : [ {
+				"CarCategoryCode" : 1,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 2,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 3,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 4,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 5,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 6,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 7,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 8,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 9,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			} ],
+			"VendorSupplierIDList" : [ "14" ],
+			"CarRate" : { },
+			"Sequence" : 104,
+			"CurrencyCode" : "GBP",
+			"SmokingBoolean" : false,
+			"PrePaidFuelBoolean" : false,
+			"UnlimitedMileageBoolean" : false,
+			"PackageBoolean" : false
+		} ]
+	},
+
+	"GBR_Standalone_RoundTrip_OnAirport_With_Young_Driver_fees" : {
+		"AuditLogTrackingData" : {
+			"LogonUserKey" : "1459",
+			"TravelerUserKey" : "1459",
+			"AuditLogGUID" : "88d30696-3d6f-45c1-b332-e73a5c55b650",
+			"AuditLogTPID" : "3",
+			"AuditLogEAPID" : "0",
+			"AuditLogGPID" : "0",
+			"AuditLogLanguageId" : "1036",
+			"AuditLogForceLogging" : true,
+			"AuditLogForceDownstreamTransaction" : true
+		},
+		"PointOfSaleKey" : {
+			"JurisdictionCountryCode" : "GBR",
+			"CompanyCode" : "10111",
+			"ManagementUnitCode" : "1050"
+		},
+		"Language" : {
+			"LanguageCode":"en",
+			"CountryAlpha2Code":"GB"
+		},
+		"CarSearchStrategy" : {
+			"PricingVisibilityBoolean" : true,
+			"PackageBoolean" : false
+		},
+		"CarSearchCriteriaList" : [ {
+			"SupplySubsetIDEntryList" : [ "15873" ],
+			"CarTransportationSegment" : {
+				"StartCarLocationKey" : {
+					"LocationCode" : "CDG"
+				},
+				"EndCarLocationKey" : {
+					"LocationCode" : "CDG"
+				},
+				"SegmentDateTimeRange" : {
+					"StartDateTime" : "2017-02-23T11:00:01.447-07:00",
+					"EndDateTime" : "2017-02-26T11:00:01.447-07:00"
+				}
+			},
+			"CarVehicleList" : [ {
+				"CarCategoryCode" : 1,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 2,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 3,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 4,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 5,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 6,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 7,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 8,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 9,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			} ],
+			"VendorSupplierIDList" : [ "15" ],
+			"CarRate" : null,
+			"Sequence" : 101,
+			"CurrencyCode" : "GBP",
+			"SmokingBoolean" : false,
+			"PrePaidFuelBoolean" : false,
+			"UnlimitedMileageBoolean" : false,
+			"PackageBoolean" : false
+		}, {
+			"SupplySubsetIDEntryList" : [ "16166" ],
+			"CarTransportationSegment" : {
+				"StartCarLocationKey" : {
+					"LocationCode" : "CDG"
+				},
+				"EndCarLocationKey" : {
+					"LocationCode" : "CDG"
+				},
+				"SegmentDateTimeRange" : {
+					"StartDateTime" : "2017-02-23T11:00:01.447-07:00",
+					"EndDateTime" : "2017-02-26T11:00:01.447-07:00"
+				}
+			},
+			"CarVehicleList" : [ {
+				"CarCategoryCode" : 1,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 2,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 3,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 4,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 5,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 6,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 7,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 8,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 9,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			} ],
+			"VendorSupplierIDList" : [ "39" ],
+			"CarRate" : null,
+			"Sequence" : 102,
+			"CurrencyCode" : "GBP",
+			"SmokingBoolean" : false,
+			"PrePaidFuelBoolean" : false,
+			"UnlimitedMileageBoolean" : false,
+			"PackageBoolean" : false
+		}, {
+			"SupplySubsetIDEntryList" : [ "16229" ],
+			"CarTransportationSegment" : {
+				"StartCarLocationKey" : {
+					"LocationCode" : "CDG"
+				},
+				"EndCarLocationKey" : {
+					"LocationCode" : "CDG"
+				},
+				"SegmentDateTimeRange" : {
+					"StartDateTime" : "2017-02-23T11:00:01.447-07:00",
+					"EndDateTime" : "2017-02-26T11:00:01.447-07:00"
+				}
+			},
+			"CarVehicleList" : [ {
+				"CarCategoryCode" : 1,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 2,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 3,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 4,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 5,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 6,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 7,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 8,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 9,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			} ],
+			"VendorSupplierIDList" : [ "6" ],
+			"CarRate" : null,
+			"Sequence" : 103,
+			"CurrencyCode" : "GBP",
+			"SmokingBoolean" : false,
+			"PrePaidFuelBoolean" : false,
+			"UnlimitedMileageBoolean" : false,
+			"PackageBoolean" : false
+		}, {
+			"SupplySubsetIDEntryList" : [ "16246" ],
+			"CarTransportationSegment" : {
+				"StartCarLocationKey" : {
+					"LocationCode" : "CDG"
+				},
+				"EndCarLocationKey" : {
+					"LocationCode" : "CDG"
+				},
+				"SegmentDateTimeRange" : {
+					"StartDateTime" : "2017-02-23T11:00:01.447-07:00",
+					"EndDateTime" : "2017-02-26T11:00:01.447-07:00"
+				}
+			},
+			"CarVehicleList" : [ {
+				"CarCategoryCode" : 1,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 2,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 3,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 4,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 5,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 6,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 7,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 8,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 9,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			} ],
+			"VendorSupplierIDList" : [ "42" ],
+			"CarRate" : null,
+			"Sequence" : 104,
+			"CurrencyCode" : "GBP",
+			"SmokingBoolean" : false,
+			"PrePaidFuelBoolean" : false,
+			"UnlimitedMileageBoolean" : false,
+			"PackageBoolean" : false
+		}, {
+			"SupplySubsetIDEntryList" : [ "16263" ],
+			"CarTransportationSegment" : {
+				"StartCarLocationKey" : {
+					"LocationCode" : "CDG"
+				},
+				"EndCarLocationKey" : {
+					"LocationCode" : "CDG"
+				},
+				"SegmentDateTimeRange" : {
+					"StartDateTime" : "2017-02-23T11:00:01.447-07:00",
+					"EndDateTime" : "2017-02-26T11:00:01.447-07:00"
+				}
+			},
+			"CarVehicleList" : [ {
+				"CarCategoryCode" : 1,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 2,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 3,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 4,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 5,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 6,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 7,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 8,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			}, {
+				"CarCategoryCode" : 9,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			} ],
+			"VendorSupplierIDList" : [ "41" ],
+			"CarRate" : null,
+			"Sequence" : 105,
+			"CurrencyCode" : "GBP",
+			"SmokingBoolean" : false,
+			"PrePaidFuelBoolean" : false,
+			"UnlimitedMileageBoolean" : false,
+			"PackageBoolean" : false
+		} ]
+	},
+
+	"TiSCS_GBR_Standalone_OneWay_OnAirport_CDG" : {
+		"AuditLogTrackingData" : {
+			"LogonUserKey" : "1076626",
+			"TravelerUserKey" : "1076626",
+			"AuditLogGUID" : "22cb1fd6-6bfd-42c2-ab54-0b7369162411",
+			"AuditLogTPID" : "20",
+			"AuditLogEAPID" : "0",
+			"AuditLogGPID" : "0",
+			"AuditLogLanguageId" : "1036",
+			"AuditLogForceLogging" : true,
+			"AuditLogForceDownstreamTransaction" : true
+		},
+		"PointOfSaleKey" : {
+			"JurisdictionCountryCode" : "GBR",
+			"CompanyCode" : "10111",
+			"ManagementUnitCode" : "1050"
+		},
+		"Language" : {
+			"LanguageCode" : "fr",
+			"CountryAlpha2Code" : "FR"
+		},
+		"CarSearchStrategy" : {
+			"PricingVisibilityBoolean" : true,
+			"PackageBoolean" : false
+		},
+		"CarSearchCriteriaList" : [ {
+			"SupplySubsetIDEntryList" : [ "15625" ],
+			"CarTransportationSegment" : {
+				"StartCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "CDG",
+					"SupplierRawText" : null
+				},
+				"EndCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "CDG",
+					"SupplierRawText" : null
+				},
+				"SegmentDateTimeRange" : {
+					"StartDateTime" : "2016-11-19T12:41:00",
+					"EndDateTime" : "2016-11-22T11:41:00"
+				}
+			},
+			"CarVehicleList" : [ {
+				"CarCategoryCode" : 0,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			} ],
+			"VendorSupplierIDList" : [ "14" ],
+			"CarRate" : {
+				"CarRateQualifier" : null,
+				"CarAgreementID" : null,
+				"setCarVendorAgreement" : null,
+				"CorporateDiscountCode" : null,
+				"PromoteCode" : null,
+				"RateCategoryCode" : null,
+				"RatePeriodCode" : null,
+				"LoyaltyProgram" : {
+					"LoyaltyProgramCategoryCode" : null,
+					"LoyaltyProgramCode" : null,
+					"LoyaltyProgramMembershipCode" : null,
+					"Sequence" : null
+				}
+			},
+			"Sequence" : 101,
+			"CurrencyCode" : "EUR",
+			"SmokingBoolean" : false,
+			"PrePaidFuelBoolean" : false,
+			"UnlimitedMileageBoolean" : false,
+			"PackageBoolean" : true
+		}, {
+			"SupplySubsetIDEntryList" : [ "15624" ],
+			"CarTransportationSegment" : {
+				"StartCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "LHR",
+					"SupplierRawText" : null
+				},
+				"EndCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "LHR",
+					"SupplierRawText" : null
+				},
+				"SegmentDateTimeRange" : {
+					"StartDateTime" : "2016-11-19T12:41:00",
+					"EndDateTime" : "2016-11-22T11:41:00"
+				}
+			},
+			"CarVehicleList" : [ {
+				"CarCategoryCode" : 0,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			} ],
+			"VendorSupplierIDList" : [ "14" ],
+			"CarRate" : {
+				"CarRateQualifier" : null,
+				"CarAgreementID" : null,
+				"setCarVendorAgreement" : null,
+				"CorporateDiscountCode" : null,
+				"PromoteCode" : null,
+				"RateCategoryCode" : null,
+				"RatePeriodCode" : null,
+				"LoyaltyProgram" : {
+					"LoyaltyProgramCategoryCode" : null,
+					"LoyaltyProgramCode" : null,
+					"LoyaltyProgramMembershipCode" : null,
+					"Sequence" : null
+				}
+			},
+			"Sequence" : 201,
+			"CurrencyCode" : "EUR",
+			"SmokingBoolean" : false,
+			"PrePaidFuelBoolean" : false,
+			"UnlimitedMileageBoolean" : false,
+			"PackageBoolean" : false
+		}, {
+			"SupplySubsetIDEntryList" : [ "15525" ],
+			"CarTransportationSegment" : {
+				"StartCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "LHR",
+					"SupplierRawText" : null
+				},
+				"EndCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "LHR",
+					"SupplierRawText" : null
+				},
+				"SegmentDateTimeRange" : {
+					"StartDateTime" : "2016-11-19T12:41:00",
+					"EndDateTime" : "2016-11-22T11:41:00"
+				}
+			},
+			"CarVehicleList" : [ {
+				"CarCategoryCode" : 0,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			} ],
+			"VendorSupplierIDList" : [ "43" ],
+			"CarRate" : {
+				"CarRateQualifier" : null,
+				"CarAgreementID" : null,
+				"setCarVendorAgreement" : null,
+				"CorporateDiscountCode" : null,
+				"PromoteCode" : null,
+				"RateCategoryCode" : null,
+				"RatePeriodCode" : null,
+				"LoyaltyProgram" : {
+					"LoyaltyProgramCategoryCode" : null,
+					"LoyaltyProgramCode" : null,
+					"LoyaltyProgramMembershipCode" : null,
+					"Sequence" : null
+				}
+			},
+			"Sequence" : 204,
+			"CurrencyCode" : "EUR",
+			"SmokingBoolean" : false,
+			"PrePaidFuelBoolean" : false,
+			"UnlimitedMileageBoolean" : false,
+			"PackageBoolean" : false
+		}, {
+			"SupplySubsetIDEntryList" : [ "15448" ],
+			"CarTransportationSegment" : {
+				"StartCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "LHR",
+					"SupplierRawText" : null
+				},
+				"EndCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "LHR",
+					"SupplierRawText" : null
+				},
+				"SegmentDateTimeRange" : {
+					"StartDateTime" : "2016-11-19T12:41:00",
+					"EndDateTime" : "2016-11-22T11:41:00"
+				}
+			},
+			"CarVehicleList" : [ {
+				"CarCategoryCode" : 0,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			} ],
+			"VendorSupplierIDList" : [ "40" ],
+			"CarRate" : {
+				"CarRateQualifier" : null,
+				"CarAgreementID" : null,
+				"setCarVendorAgreement" : null,
+				"CorporateDiscountCode" : null,
+				"PromoteCode" : null,
+				"RateCategoryCode" : null,
+				"RatePeriodCode" : null,
+				"LoyaltyProgram" : {
+					"LoyaltyProgramCategoryCode" : null,
+					"LoyaltyProgramCode" : null,
+					"LoyaltyProgramMembershipCode" : null,
+					"Sequence" : null
+				}
+			},
+			"Sequence" : 205,
+			"CurrencyCode" : "EUR",
+			"SmokingBoolean" : false,
+			"PrePaidFuelBoolean" : false,
+			"UnlimitedMileageBoolean" : false,
+			"PackageBoolean" : false
+		}, {
+			"SupplySubsetIDEntryList" : [ "15586" ],
+			"CarTransportationSegment" : {
+				"StartCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "LHR",
+					"SupplierRawText" : null
+				},
+				"EndCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "LHR",
+					"SupplierRawText" : null
+				},
+				"SegmentDateTimeRange" : {
+					"StartDateTime" : "2016-11-19T12:41:00",
+					"EndDateTime" : "2016-11-22T11:41:00"
+				}
+			},
+			"CarVehicleList" : [ {
+				"CarCategoryCode" : 0,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			} ],
+			"VendorSupplierIDList" : [ "35" ],
+			"CarRate" : {
+				"CarRateQualifier" : null,
+				"CarAgreementID" : null,
+				"setCarVendorAgreement" : null,
+				"CorporateDiscountCode" : null,
+				"PromoteCode" : null,
+				"RateCategoryCode" : null,
+				"RatePeriodCode" : null,
+				"LoyaltyProgram" : {
+					"LoyaltyProgramCategoryCode" : null,
+					"LoyaltyProgramCode" : null,
+					"LoyaltyProgramMembershipCode" : null,
+					"Sequence" : null
+				}
+			},
+			"Sequence" : 206,
+			"CurrencyCode" : "EUR",
+			"SmokingBoolean" : false,
+			"PrePaidFuelBoolean" : false,
+			"UnlimitedMileageBoolean" : false,
+			"PackageBoolean" : false
+		}, {
+			"SupplySubsetIDEntryList" : [ "15599" ],
+			"CarTransportationSegment" : {
+				"StartCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "LHR",
+					"SupplierRawText" : null
+				},
+				"EndCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "LHR",
+					"SupplierRawText" : null
+				},
+				"SegmentDateTimeRange" : {
+					"StartDateTime" : "2016-11-19T12:41:00",
+					"EndDateTime" : "2016-11-22T11:41:00"
+				}
+			},
+			"CarVehicleList" : [ {
+				"CarCategoryCode" : 0,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			} ],
+			"VendorSupplierIDList" : [ "15" ],
+			"CarRate" : {
+				"CarRateQualifier" : null,
+				"CarAgreementID" : null,
+				"setCarVendorAgreement" : null,
+				"CorporateDiscountCode" : null,
+				"PromoteCode" : null,
+				"RateCategoryCode" : null,
+				"RatePeriodCode" : null,
+				"LoyaltyProgram" : {
+					"LoyaltyProgramCategoryCode" : null,
+					"LoyaltyProgramCode" : null,
+					"LoyaltyProgramMembershipCode" : null,
+					"Sequence" : null
+				}
+			},
+			"Sequence" : 208,
+			"CurrencyCode" : "EUR",
+			"SmokingBoolean" : false,
+			"PrePaidFuelBoolean" : false,
+			"UnlimitedMileageBoolean" : false,
+			"PackageBoolean" : false
+		}, {
+			"SupplySubsetIDEntryList" : [ "15563" ],
+			"CarTransportationSegment" : {
+				"StartCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "LHR",
+					"SupplierRawText" : null
+				},
+				"EndCarLocationKey" : {
+					"CarVendorLocationID" : 0,
+					"CarLocationCategoryCode" : null,
+					"LocationCode" : "LHR",
+					"SupplierRawText" : null
+				},
+				"SegmentDateTimeRange" : {
+					"StartDateTime" : "2016-11-19T12:41:00",
+					"EndDateTime" : "2016-11-22T11:41:00"
+				}
+			},
+			"CarVehicleList" : [ {
+				"CarCategoryCode" : 0,
+				"CarTypeCode" : 0,
+				"CarTransmissionDriveCode" : 0,
+				"CarFuelACCode" : 0
+			} ],
+			"VendorSupplierIDList" : [ "6" ],
+			"CarRate" : {
+				"CarRateQualifier" : null,
+				"CarAgreementID" : null,
+				"setCarVendorAgreement" : null,
+				"CorporateDiscountCode" : null,
+				"PromoteCode" : null,
+				"RateCategoryCode" : null,
+				"RatePeriodCode" : null,
+				"LoyaltyProgram" : {
+					"LoyaltyProgramCategoryCode" : null,
+					"LoyaltyProgramCode" : null,
+					"LoyaltyProgramMembershipCode" : null,
+					"Sequence" : null
+				}
+			},
+			"Sequence" : 209,
+			"CurrencyCode" : "EUR",
+			"SmokingBoolean" : false,
+			"PrePaidFuelBoolean" : false,
+			"UnlimitedMileageBoolean" : false,
+			"PackageBoolean" : false
+		} ]
+	}
+
+}

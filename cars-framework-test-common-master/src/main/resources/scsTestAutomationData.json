@@ -1,0 +1,70 @@
+{
+	"SupplySubsetIDsForRegression": {
+		"WorldSpanStandaloneOnAirport": {
+			"supplysubsetID": "124",
+			"supplysubsetID": "5974",
+			"supplierID": "2/40"
+		},
+		"WorldSpanStandaloneOffAirport": {
+			"supplysubsetID": "125",
+			"supplysubsetID": "5974",
+			"supplierID": ""
+		},
+		"WorldSpanHertzPrepaid": {
+			"supplysubsetID": "16417",
+			"supplierID": "40"
+		},
+		"WorldSpanPackageOnAirport": {
+			"supplysubsetID": "124",
+			"supplierID": "14"
+		},
+		"WorldSpanPackageOffAirport": {
+			"supplysubsetID": "125",
+			"supplierID": ""
+		},
+		"AmadeusStandaloneOnAirport": {
+			"supplysubsetID": "11684",
+			"supplierID": "6/14/15/41/3/39"
+		},
+		"AmadeusStandaloneOffAirport": {
+			"supplysubsetID": "11684",
+			"supplierID": "6/14/15/41/3/39"
+		},
+		"TitaniumStandaloneOnAirport": {
+			"supplysubsetID": "15884",
+			"supplierID": "40/39"
+		},
+		"TitaniumStandaloneOffAirport": {
+			"supplysubsetID": "15901",
+			"supplierID": "40/39"
+		},
+		"TitaniumPackageOnAirport": {
+			"supplysubsetID": "15884",
+			"supplierID": "40/39"
+		},
+		"TitaniumPacakgeOffAirport": {
+			"supplysubsetID": "15901",
+			"supplierID": ""
+		},
+		"MicronexusStandaloneOnAirport": {
+			"supplysubsetID": "39991",
+			"supplierID": "1040/1041/1042/1043"
+		},
+		"MicronexusPackageOnAirport": {
+			"supplysubsetID": "39991",
+			"supplierID": "1040/1041/1042/1043/1060/1061/1062/1063"
+		},
+		"MicronexusStandaloneOffAirport": {
+			"supplysubsetID": "39991",
+			"supplierID": ""
+		},
+		"SabreStandaloneOnAirport": {
+			"supplysubsetID": "89991",
+			"supplierID": "39"
+		},
+		"SabreStandaloneOffAirport": {
+			"supplysubsetID": "89992",
+			"supplierID": ""
+		}
+	}
+}

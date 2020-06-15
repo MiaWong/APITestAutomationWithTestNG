@@ -1,0 +1,18 @@
+<suite name="CarSupply E2E BVT Tests" verbose="1">
+    <!--<listeners>
+        <listener class-name="com.expedia.s3.cars.supplyconnectivity.titanium.service.Logging.CustomTestNGLogger"/>
+    </listeners> -->
+    <test name="BVT : CarSupply BVT Test">
+        <!--
+            <groups>
+                <run>
+                    <include name="shopingRegressionLive"/>
+                    <include name="bookingRegressionLive"/>
+                </run>
+            </groups>
+        -->
+        <packages>
+            <package name="com.expedia.s3.cars.supply.service.tests.bvt"/>
+        </packages>
+    </test>
+</suite>

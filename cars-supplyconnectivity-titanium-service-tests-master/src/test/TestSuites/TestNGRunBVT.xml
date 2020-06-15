@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Titanium TestNG BVT Tests" verbose="1">
+    <test name="BVT Group Run">
+        <groups>
+            <run>
+                <include name="bvt" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.bvt.Search" />
+            <class name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.bvt.GetDetails" />
+            <class name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.bvt.GetCostAndAvail" />
+            <class name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.bvt.Reserve" />
+            <class name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.bvt.GetReservation" />
+        </classes>
+    </test>
+</suite>

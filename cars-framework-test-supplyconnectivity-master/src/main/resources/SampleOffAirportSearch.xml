@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns8:CarSupplyConnectivitySearchRequest xmlns:ns1="urn:expedia:e3:data:basetypes:defn:v4"
+
+                                        xmlns:ns2="urn:expedia:e3:data:messagetypes:defn:v4"
+                                        xmlns:ns3="urn:expedia:e3:data:timetypes:defn:v4"
+                                        xmlns:ns4="urn:expedia:e3:data:cartypes:defn:v5"
+
+                                        xmlns:ns5="urn:expedia:e3:data:placetypes:defn:v4"
+                                        xmlns:ns6="urn:expedia:e3:data:financetypes:defn:v4"
+                                        xmlns:ns7="urn:expedia:e3:data:traveltypes:defn:v4"
+
+                                        xmlns:ns8="urn:com:expedia:s3:cars:supplyconnectivity:messages:search:defn:v4"
+>
+    <ns2:MessageInfo ns2:MessageNameString="CarSupplyConnectivitySearchRequest" ns2:MessageVersion="4.0.0"
+                     ns3:CreateDateTime="2016-07-20T02:32:03.774-07:00">
+        <ns2:ClientHostnameString>PEOPLEVILLE</ns2:ClientHostnameString>
+        <ns2:EndUserIPAddress>10.187.20.19</ns2:EndUserIPAddress>
+        <ns2:ClientName>UnClassified</ns2:ClientName>
+    </ns2:MessageInfo>
+    <ns4:AuditLogTrackingData>
+        <ns1:LogonUserKey>
+            <ns1:UserID>7784097</ns1:UserID>
+        </ns1:LogonUserKey>
+        <ns1:TravelerUserKey>
+            <ns1:UserID>7784097</ns1:UserID>
+        </ns1:TravelerUserKey>
+        <ns4:AuditLogGUID>f7602074-4a89-47fa-a46f-1bf0e85ce0d8</ns4:AuditLogGUID>
+        <ns4:AuditLogTPID>1</ns4:AuditLogTPID>
+        <ns4:AuditLogEAPID>0</ns4:AuditLogEAPID>
+        <ns4:AuditLogGPID>0</ns4:AuditLogGPID>
+        <ns4:AuditLogLanguageId>1033</ns4:AuditLogLanguageId>
+        <ns4:AuditLogForceLogging>false</ns4:AuditLogForceLogging>
+        <ns4:AuditLogForceDownstreamTransaction>false</ns4:AuditLogForceDownstreamTransaction>
+    </ns4:AuditLogTrackingData>
+    <ns5:PointOfSaleKey>
+        <ns5:JurisdictionCountryCode>USA</ns5:JurisdictionCountryCode>
+        <ns1:CompanyCode>10111</ns1:CompanyCode>
+        <ns1:ManagementUnitCode>1010</ns1:ManagementUnitCode>
+    </ns5:PointOfSaleKey>
+    <ns5:Language>
+        <ns5:LanguageCode>en</ns5:LanguageCode>
+        <ns5:CountryAlpha2Code>US</ns5:CountryAlpha2Code>
+    </ns5:Language>
+    <ns4:CarSearchStrategy>
+        <ns6:PricingVisibilityBoolean>true</ns6:PricingVisibilityBoolean>
+    </ns4:CarSearchStrategy>
+    <ns4:CarSearchCriteriaList>
+        <ns4:CarSearchCriteria ns1:Sequence="1301">
+            <ns1:SupplySubsetIDEntryList>
+                <ns1:SupplySubsetIDEntry ns1:Sequence="0">
+                    <ns1:SupplySubsetID>5974</ns1:SupplySubsetID>
+                </ns1:SupplySubsetIDEntry>
+            </ns1:SupplySubsetIDEntryList>
+            <ns4:CarTransportationSegment>
+                <ns4:StartCarLocationKey ns4:CarVendorLocationID="21528">
+                    <ns5:LocationCode>LAS</ns5:LocationCode>
+                    <ns4:CarLocationCategoryCode>C</ns4:CarLocationCategoryCode>
+                    <ns1:SupplierRawText>001</ns1:SupplierRawText>
+                </ns4:StartCarLocationKey>
+                <ns4:EndCarLocationKey ns4:CarVendorLocationID="21528">
+                    <ns5:LocationCode>LAS</ns5:LocationCode>
+                    <ns4:CarLocationCategoryCode>C</ns4:CarLocationCategoryCode>
+                    <ns1:SupplierRawText>001</ns1:SupplierRawText>
+                </ns4:EndCarLocationKey>
+                <ns7:SegmentDateTimeRange>
+                    <ns3:StartDateTimeRange>
+                        <ns3:MinDateTime>2016-12-10T10:30:00</ns3:MinDateTime>
+                        <ns3:MaxDateTime>2016-12-10T10:30:00</ns3:MaxDateTime>
+                    </ns3:StartDateTimeRange>
+                    <ns3:EndDateTimeRange>
+                        <ns3:MinDateTime>2016-12-11T10:30:00</ns3:MinDateTime>
+                        <ns3:MaxDateTime>2016-12-11T10:30:00</ns3:MaxDateTime>
+                    </ns3:EndDateTimeRange>
+                </ns7:SegmentDateTimeRange>
+            </ns4:CarTransportationSegment>
+            <ns4:CarVehicleList>
+                <ns4:CarVehicle>
+                    <ns4:CarCategoryCode>0</ns4:CarCategoryCode>
+                    <ns4:CarTypeCode>0</ns4:CarTypeCode>
+                    <ns4:CarTransmissionDriveCode>0</ns4:CarTransmissionDriveCode>
+                    <ns4:CarFuelACCode>0</ns4:CarFuelACCode>
+                </ns4:CarVehicle>
+            </ns4:CarVehicleList>
+            <ns1:VendorSupplierIDList>
+                <ns1:VendorSupplierID>40</ns1:VendorSupplierID>
+            </ns1:VendorSupplierIDList>
+            <ns6:CurrencyCode>USD</ns6:CurrencyCode>
+            <ns4:CarRate></ns4:CarRate>
+            <ns1:SmokingBoolean>false</ns1:SmokingBoolean>
+            <ns4:PrePaidFuelBoolean>false</ns4:PrePaidFuelBoolean>
+            <ns4:UnlimitedMileageBoolean>false</ns4:UnlimitedMileageBoolean>
+            <ns4:PackageBoolean>false</ns4:PackageBoolean>
+        </ns4:CarSearchCriteria>
+        <ns4:CarSearchCriteria ns1:Sequence="1301">
+            <ns1:SupplySubsetIDEntryList>
+                <ns1:SupplySubsetIDEntry ns1:Sequence="0">
+                    <ns1:SupplySubsetID>5974</ns1:SupplySubsetID>
+                </ns1:SupplySubsetIDEntry>
+            </ns1:SupplySubsetIDEntryList>
+            <ns4:CarTransportationSegment>
+                <ns4:StartCarLocationKey ns4:CarVendorLocationID="21528">
+                    <ns5:LocationCode>SEA</ns5:LocationCode>
+                    <ns4:CarLocationCategoryCode>T</ns4:CarLocationCategoryCode>
+                    <ns1:SupplierRawText>001</ns1:SupplierRawText>
+                </ns4:StartCarLocationKey>
+                <ns4:EndCarLocationKey ns4:CarVendorLocationID="21528">
+                    <ns5:LocationCode>SEA</ns5:LocationCode>
+                    <ns4:CarLocationCategoryCode>T</ns4:CarLocationCategoryCode>
+                    <ns1:SupplierRawText>001</ns1:SupplierRawText>
+                </ns4:EndCarLocationKey>
+                <ns7:SegmentDateTimeRange>
+                    <ns3:StartDateTimeRange>
+                        <ns3:MinDateTime>2016-12-10T10:30:00</ns3:MinDateTime>
+                        <ns3:MaxDateTime>2016-12-10T10:30:00</ns3:MaxDateTime>
+                    </ns3:StartDateTimeRange>
+                    <ns3:EndDateTimeRange>
+                        <ns3:MinDateTime>2016-12-11T10:30:00</ns3:MinDateTime>
+                        <ns3:MaxDateTime>2016-12-11T10:30:00</ns3:MaxDateTime>
+                    </ns3:EndDateTimeRange>
+                </ns7:SegmentDateTimeRange>
+            </ns4:CarTransportationSegment>
+            <ns4:CarVehicleList>
+                <ns4:CarVehicle>
+                    <ns4:CarCategoryCode>0</ns4:CarCategoryCode>
+                    <ns4:CarTypeCode>0</ns4:CarTypeCode>
+                    <ns4:CarTransmissionDriveCode>0</ns4:CarTransmissionDriveCode>
+                    <ns4:CarFuelACCode>0</ns4:CarFuelACCode>
+                </ns4:CarVehicle>
+            </ns4:CarVehicleList>
+            <ns1:VendorSupplierIDList>
+                <ns1:VendorSupplierID>40</ns1:VendorSupplierID>
+            </ns1:VendorSupplierIDList>
+            <ns6:CurrencyCode>USD</ns6:CurrencyCode>
+            <ns4:CarRate></ns4:CarRate>
+            <ns1:SmokingBoolean>false</ns1:SmokingBoolean>
+            <ns4:PrePaidFuelBoolean>false</ns4:PrePaidFuelBoolean>
+            <ns4:UnlimitedMileageBoolean>false</ns4:UnlimitedMileageBoolean>
+            <ns4:PackageBoolean>false</ns4:PackageBoolean>
+        </ns4:CarSearchCriteria>
+        <ns4:CarSearchCriteria ns1:Sequence="1301">
+            <ns1:SupplySubsetIDEntryList>
+                <ns1:SupplySubsetIDEntry ns1:Sequence="0">
+                    <ns1:SupplySubsetID>5974</ns1:SupplySubsetID>
+                </ns1:SupplySubsetIDEntry>
+            </ns1:SupplySubsetIDEntryList>
+            <ns4:CarTransportationSegment>
+                <ns4:StartCarLocationKey ns4:CarVendorLocationID="21528">
+                    <ns5:LocationCode>SEA</ns5:LocationCode>
+                    <ns4:CarLocationCategoryCode>I</ns4:CarLocationCategoryCode>
+                    <ns1:SupplierRawText>001</ns1:SupplierRawText>
+                </ns4:StartCarLocationKey>
+                <ns4:EndCarLocationKey ns4:CarVendorLocationID="21528">
+                    <ns5:LocationCode>SEA</ns5:LocationCode>
+                    <ns4:CarLocationCategoryCode>I</ns4:CarLocationCategoryCode>
+                    <ns1:SupplierRawText>001</ns1:SupplierRawText>
+                </ns4:EndCarLocationKey>
+                <ns7:SegmentDateTimeRange>
+                    <ns3:StartDateTimeRange>
+                        <ns3:MinDateTime>2016-12-10T10:30:00</ns3:MinDateTime>
+                        <ns3:MaxDateTime>2016-12-10T10:30:00</ns3:MaxDateTime>
+                    </ns3:StartDateTimeRange>
+                    <ns3:EndDateTimeRange>
+                        <ns3:MinDateTime>2016-12-11T10:30:00</ns3:MinDateTime>
+                        <ns3:MaxDateTime>2016-12-11T10:30:00</ns3:MaxDateTime>
+                    </ns3:EndDateTimeRange>
+                </ns7:SegmentDateTimeRange>
+            </ns4:CarTransportationSegment>
+            <ns4:CarVehicleList>
+                <ns4:CarVehicle>
+                    <ns4:CarCategoryCode>0</ns4:CarCategoryCode>
+                    <ns4:CarTypeCode>0</ns4:CarTypeCode>
+                    <ns4:CarTransmissionDriveCode>0</ns4:CarTransmissionDriveCode>
+                    <ns4:CarFuelACCode>0</ns4:CarFuelACCode>
+                </ns4:CarVehicle>
+            </ns4:CarVehicleList>
+            <ns1:VendorSupplierIDList>
+                <ns1:VendorSupplierID>40</ns1:VendorSupplierID>
+            </ns1:VendorSupplierIDList>
+            <ns6:CurrencyCode>USD</ns6:CurrencyCode>
+            <ns4:CarRate></ns4:CarRate>
+            <ns1:SmokingBoolean>false</ns1:SmokingBoolean>
+            <ns4:PrePaidFuelBoolean>false</ns4:PrePaidFuelBoolean>
+            <ns4:UnlimitedMileageBoolean>false</ns4:UnlimitedMileageBoolean>
+            <ns4:PackageBoolean>false</ns4:PackageBoolean>
+        </ns4:CarSearchCriteria>
+    </ns4:CarSearchCriteriaList>
+</ns8:CarSupplyConnectivitySearchRequest>

@@ -1,0 +1,25 @@
+<suite name="sabre Cert Tests" verbose="1">
+    <!--<listeners>
+        <listener class-name="com.expedia.s3.cars.supplyconnectivity.sabre.service.Logging.CustomTestNGLogger"/>
+    </listeners> -->
+    <test name="BVT : sabre Cert Test">
+        <!--
+            <groups>
+                <run>
+                    <include name="shopingRegressionLive"/>
+                    <include name="bookingRegressionLive"/>
+                </run>
+            </groups>
+        -->
+        <parameter name="vendorSupplierID" value="15"/>
+        <parameter name="carCategoryCode" value="10"/>
+        <parameter name="carTypeCode" value="4"/>
+        <parameter name="carTransmissionDriveCode" value="1"/>
+        <parameter name="carFuelACCode" value="1"/>
+
+        <!-- execution multiple suites in XML -->
+        <classes>
+            <class name="com.expedia.s3.cars.supplyconnectivity.sabre.service.tests.bvt.EndToEnd"/>
+        </classes>
+    </test>
+</suite>

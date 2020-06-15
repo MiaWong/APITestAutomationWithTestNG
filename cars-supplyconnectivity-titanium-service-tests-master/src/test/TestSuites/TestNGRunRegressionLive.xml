@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Titanium TestNG Regression Live Tests" verbose="1">
+    <test name="Regression Live Group Run">
+        <groups>
+            <run>
+                <include name="shoppingRegressionLive"/>
+                <include name="bookingRegressionLive"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.bvt.EndToEnd" />
+        </classes>
+    </test>
+</suite>

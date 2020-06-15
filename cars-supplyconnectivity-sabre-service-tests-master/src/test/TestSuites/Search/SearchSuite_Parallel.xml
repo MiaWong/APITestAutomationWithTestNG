@@ -1,0 +1,20 @@
+<suite name="sabre Search Tests" verbose="1" parallel="methods">
+    <listeners>
+        <listener class-name="com.expedia.s3.cars.supplyconnectivity.sabre.service.Logging.CustomTestNGLogger"/>
+    </listeners>
+    <!--<listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>-->
+    <test name="All BVTs">
+        <groups>
+            <run>
+                <include name="bvt"/>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.expedia.s3.cars.supplyconnectivity.sabre.service.tests.search.Search"/>
+        </classes>
+    </test>
+</suite>

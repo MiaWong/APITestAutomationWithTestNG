@@ -1,0 +1,31 @@
+<CarLocationIataSearchRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:com:expedia:s3:cars:messages:locationiata:search:defn:v1">
+    <MessageInfo p4:CreateDateTime="2017-03-21T00:15:32.6319878-07:00" p5:MessageNameString="CarLocationIataSearchRequest" p5:MessageVersion="1.0.0" xmlns:p5="urn:expedia:e3:data:messagetypes:defn:v4" xmlns:p4="urn:expedia:e3:data:timetypes:defn:v4" xmlns="urn:expedia:e3:data:messagetypes:defn:v4">
+        <p5:EndUserIPAddress>fe80::5898:24be:b555:b1a0%11</p5:EndUserIPAddress>
+    </MessageInfo>
+    <ClientCode xmlns="urn:expedia:e3:data:cartypes:defn:v5">W0DFCJ</ClientCode>
+    <PointOfSaleKey>
+        <JurisdictionCountryCode xmlns="">FRA</JurisdictionCountryCode>
+        <CompanyCode xmlns="">10116</CompanyCode>
+        <ManagementUnitCode xmlns="">6045</ManagementUnitCode>
+    </PointOfSaleKey>
+    <AuditLogTrackingData xmlns="urn:expedia:e3:data:cartypes:defn:v5">
+        <LogonUserKey xmlns="urn:expedia:e3:data:basetypes:defn:v4">
+            <UserID>238763</UserID>
+        </LogonUserKey>
+        <TravelerUserKey xmlns="urn:expedia:e3:data:basetypes:defn:v4">
+            <UserID>238763</UserID>
+        </TravelerUserKey>
+        <AuditLogGUID>159b8c30-9bb1-4c2e-beb1-436d57939016</AuditLogGUID>
+        <AuditLogTPID>60020</AuditLogTPID>
+        <AuditLogEAPID>0</AuditLogEAPID>
+        <AuditLogGPID>0</AuditLogGPID>
+        <AuditLogLanguageId>1036</AuditLogLanguageId>
+        <AuditLogForceLogging>false</AuditLogForceLogging>
+        <AuditLogForceDownstreamTransaction>false</AuditLogForceDownstreamTransaction>
+    </AuditLogTrackingData>
+    <SearchCriteria xmlns="">
+        <Iata>NCE</Iata>
+        <Filter p5:CollectionBoolean="true" p5:DeliveryBoolean="true" p5:OutOfOfficeHourBoolean="true" xmlns:p5="urn:com:expedia:s3:cars:messages:locationiata:search:defn:v1" xmlns="urn:com:expedia:s3:cars:messages:locationiata:search:defn:v1" />
+        <IncludeLocationDetails>true</IncludeLocationDetails>
+    </SearchCriteria>
+</CarLocationIataSearchRequest>

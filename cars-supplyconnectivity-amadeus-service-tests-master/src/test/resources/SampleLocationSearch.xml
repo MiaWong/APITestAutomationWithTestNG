@@ -1,0 +1,27 @@
+<ns6:CarSupplyConnectivityLocationSearchRequest xmlns:ns1="urn:expedia:e3:data:basetypes:defn:v4" xmlns:ns2="urn:expedia:e3:data:messagetypes:defn:v4" xmlns:ns3="urn:expedia:e3:data:timetypes:defn:v4" xmlns:ns4="urn:expedia:e3:data:placetypes:defn:v4" xmlns:ns5="urn:expedia:e3:data:cartypes:defn:v5" xmlns:ns6="urn:com:expedia:s3:cars:supplyconnectivity:messages:location:search:defn:v1" xmlns:ns8="urn:expedia:e3:data:errortypes:defn:v4" xmlns:ns9="urn:com:expedia:s3:cars:messages:location:search:defn:v1">
+    <ns2:MessageInfo ns2:MessageNameString="CarSupplyConnectivityLocationSearchRequest" ns2:MessageVersion="1.0.0" ns3:CreateDateTime="2016-03-10T17:48:41.014-08:00"></ns2:MessageInfo>
+    <ns4:PointOfSaleKey>
+        <ns4:JurisdictionCountryCode>FRA</ns4:JurisdictionCountryCode>
+        <ns1:CompanyCode>10116</ns1:CompanyCode>
+        <ns1:ManagementUnitCode>6045</ns1:ManagementUnitCode>
+    </ns4:PointOfSaleKey>
+    <ns5:AuditLogTrackingData>
+        <ns1:LogonUserKey>
+            <ns1:UserID>238763</ns1:UserID>
+        </ns1:LogonUserKey>
+        <ns1:TravelerUserKey>
+            <ns1:UserID>238763</ns1:UserID>
+        </ns1:TravelerUserKey>
+        <ns5:AuditLogGUID>706b0255-e221-4aaa-b768-428dbe8b6858</ns5:AuditLogGUID>
+        <ns5:AuditLogTPID>60020</ns5:AuditLogTPID>
+        <ns5:AuditLogEAPID>0</ns5:AuditLogEAPID>
+        <ns5:AuditLogGPID>0</ns5:AuditLogGPID>
+        <ns5:AuditLogLanguageId>1036</ns5:AuditLogLanguageId>
+        <ns5:AuditLogForceLogging>true</ns5:AuditLogForceLogging>
+        <ns5:AuditLogForceDownstreamTransaction>true</ns5:AuditLogForceDownstreamTransaction>
+    </ns5:AuditLogTrackingData>
+    <SearchCriteria>
+        <Iata>NCE</Iata>
+        <IncludeLocationDetails>true</IncludeLocationDetails>
+    </SearchCriteria>
+</ns6:CarSupplyConnectivityLocationSearchRequest>

@@ -1,0 +1,15 @@
+<suite name="Titanium Search Tests" verbose="1">
+    <!--<listeners>
+        <listener class-name="CustomTestNGReporter"/>
+    </listeners> -->
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <test name="All BVTs">
+        <packages>
+            <package name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.*"/>
+        </packages>
+    </test>
+
+</suite>

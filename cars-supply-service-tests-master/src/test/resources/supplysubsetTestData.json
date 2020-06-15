@@ -1,0 +1,14 @@
+{
+	"15111": {
+		"SIFormat": "CCI-%v%",
+		"VOFormat": ""
+	},
+	"13703": {
+		"SIFormat": "",
+		"VOFormat": "%v%"
+	},
+	"2834": {
+		"SIFormat": "",
+		"VOFormat": ""
+	}
+}

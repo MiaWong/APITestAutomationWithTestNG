@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd" [
+        <!ENTITY LOG_LEVEL "INFO">
+        ]>
+<log4j:configuration debug="false">
+
+    <appender name="Appender" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="aaron: %d [%.30t] %c %p %m%n"/>
+        </layout>
+    </appender>
+
+    <appender name="fileAppender" class="org.apache.log4j.RollingFileAppender">
+        <param name="file" value="${application.home}/logs/${project.name}.txt"/>
+        <param name="append" value="false"/>
+        <param name="MaxFileSize" value="1000KB"/>
+        <param name="MaxBackupIndex" value="100"/>
+        <layout class="org.apache.log4j.EnhancedPatternLayout">
+            <param name="ConversionPattern"
+                   value="DateTime=%d{ISO8601}{GMT} Application=${project.name} Logger=%c Type=%p %m%n"/>
+        </layout>
+    </appender>
+
+    <root>
+        <priority value="&LOG_LEVEL;"/>
+        <appender-ref ref="Appender"/>
+    </root>
+
+</log4j:configuration>

@@ -1,0 +1,19 @@
+<suite name="Amadeus Search Tests" verbose="1" parallel="methods" thread-count="2">
+    <listeners>
+        <listener class-name="com.expedia.s3.cars.supplyconnectivity.amadeus.tests.logging.CustomTestNGLogger"/>
+    </listeners>
+    <!--<listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>-->
+    <test name="All BVTs">
+        <groups>
+            <run>
+                <include name="bvt"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.expedia.s3.cars.supplyconnectivity.amadeus.service.tests.bvt.Search"/>
+        </classes>
+    </test>
+</suite>

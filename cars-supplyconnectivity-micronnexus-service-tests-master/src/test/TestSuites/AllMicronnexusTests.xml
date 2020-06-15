@@ -1,0 +1,15 @@
+<suite name="Micronnexus Tests" verbose="1">
+    <!--<listeners>
+        <listener class-name="CustomTestNGReporter"/>
+    </listeners> -->
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <test name="All Tests">
+        <packages>
+            <package name="com.expedia.s3.cars.supplyconnectivity.micronnexus.service.tests.*"/>
+        </packages>
+    </test>
+
+</suite>

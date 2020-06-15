@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.expedia.s3</groupId>
+    <artifactId>cars-supplyconnectivity-worldspan-service-tests</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <parent>
+        <groupId>com.expedia.s3</groupId>
+        <artifactId>cars-modules-test-parent</artifactId>
+        <version>1.0.5</version>
+    </parent>
+
+    <name>cars-supplyconnectivity-worldspan-service-tests</name>
+
+    <!-- the scm config is required for the release plugin to work -->
+    <scm>
+        <connection>scm:git:git@ewegithub.sb.karmalab.net:EWE/cars-supplyconnectivity-titanium-service-tests.git</connection>
+        <developerConnection>scm:git:git@ewegithub.sb.karmalab.net:EWE/cars-supplyconnectivity-titanium-service-tests.git</developerConnection>
+        <tag>HEAD</tag>
+        <url>scm:git:git@ewegithub.sb.karmalab.net:EWE/cars-supplyconnectivity-titanium-service-tests.git</url>
+    </scm>
+
+    <properties>
+        <cars-framework-core.version>[6.0,6.9999]</cars-framework-core.version>
+        <cars-framework-keyvalueloghandling.version>[4.0,4.9999]</cars-framework-keyvalueloghandling.version>
+        <supplyconnectivity-messages>4.16.0.2</supplyconnectivity-messages>
+        <cars-framework-test-supplyconnectivity.version>[1.0,1.9999]</cars-framework-test-supplyconnectivity.version>
+        <pmd.includeTests>false</pmd.includeTests>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.expedia.s3</groupId>
+            <artifactId>cars-framework-test-supplyconnectivity</artifactId>
+            <version>${cars-framework-test-supplyconnectivity.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.apache.httpcomponents</groupId>
+                    <artifactId>httpclient</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- http://mvnrepository.com/artifact/joda-time/joda-time -->
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+        </dependency>
+
+        <!-- http://mvnrepository.com/artifact/org.uncommons/reportng -->
+        <dependency>
+            <groupId>org.uncommons</groupId>
+            <artifactId>reportng</artifactId>
+            <version>1.1.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
+            <version>3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.12</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <!-- plugins for AmadeusServiceTransport -->
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${maven-surefire-plugin.version}</version>
+                <configuration>
+                    <enableAssertions>false</enableAssertions>
+                    <!--
+                    Specifically enabling this so that both for scala test and TestNG / Junit AmadeusServiceTransport run
+                    -->
+                    <skipTests>false</skipTests>
+                    <!--
+                      forkCount must be greater than zero or jacoco javaagent can't report coverage
+                    -->
+                    <!--<testSourceDirectory>/src/test/</testSourceDirectory>-->
+                    <forkCount>1</forkCount>
+                    <reuseForks>true</reuseForks>
+                    <includes>
+                        <include>**/*.java</include>
+                    </includes>
+                    <properties>
+                        <plugin>
+                            <groupId>org.apache.maven.plugins</groupId>
+                            <artifactId>maven-surefire-plugin</artifactId>
+                            <version>${maven-surefire-plugin.version}</version>
+                            <configuration>
+                                <enableAssertions>false</enableAssertions>
+                                <!--
+                                Specifically enabling this so that both for scala test and TestNG / Junit AmadeusServiceTransport run
+                                -->
+                                <skipTests>false</skipTests>
+                                <!--
+                                  forkCount must be greater than zero or jacoco javaagent can't report coverage
+                                -->
+                                <!--<testSourceDirectory>/src/test/</testSourceDirectory>-->
+                                <forkCount>1</forkCount>
+                                <reuseForks>true</reuseForks>
+                                <includes>
+                                    <include>**/*.java</include>
+                                </includes>
+                                <properties>
+                                    <property>
+                                        <name>usedefaultlisteners</name>
+                                        <value>true</value>
+                                    </property>
+                                    <property>
+                                        <name>reporter</name>
+                                        <value>listenReport.Reporter</value>
+                                    </property>
+                                </properties>
+                                <workingDirectory>target/test-classes/</workingDirectory>
+                                <redirectTestOutputToFile>true</redirectTestOutputToFile>
+                            </configuration>
+                            <dependencies>
+                                <dependency>
+                                    <groupId>org.apache.maven.surefire</groupId>
+                                    <artifactId>surefire-junit47</artifactId>
+                                    <version>${maven-surefire-plugin.version}</version>
+                                </dependency>
+                                <dependency>
+                                    <groupId>org.apache.maven.surefire</groupId>
+                                    <artifactId>surefire-testng</artifactId>
+                                    <version>${maven-surefire-plugin.version}</version>
+                                </dependency>
+                            </dependencies>
+                        </plugin>
+                        <property>
+                            <name>listener</name>
+                            <value>org.uncommons.reportng.HTMLReporter, org.uncommons.reportng.JUnitXMLReporter</value>
+                        </property>
+                        <property>
+                            <name>usedefaultlisteners</name>
+                            <value>true</value>
+                        </property>
+                        <property>
+                            <name>reporter</name>
+                            <value>listenReport.Reporter</value>
+                        </property>
+                    </properties>
+                    <workingDirectory>target/test-classes/</workingDirectory>
+                    <redirectTestOutputToFile>true</redirectTestOutputToFile>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

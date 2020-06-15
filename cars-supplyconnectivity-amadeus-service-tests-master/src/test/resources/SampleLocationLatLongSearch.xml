@@ -1,0 +1,32 @@
+<CarSupplyConnectivityLocationSearchRequest xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd = "http://www.w3.org/2001/XMLSchema" xmlns = "urn:com:expedia:s3:cars:supplyconnectivity:messages:location:search:defn:v1">
+    <MessageInfo p4:CreateDateTime = "2017-03-20T23:06:57.2149453-07:00" p5:MessageNameString = "CarSupplyConnectivityLocationSearchRequest" p5:MessageVersion = "1.0.0" xmlns:p5 = "urn:expedia:e3:data:messagetypes:defn:v4" xmlns:p4 = "urn:expedia:e3:data:timetypes:defn:v4" xmlns = "urn:expedia:e3:data:messagetypes:defn:v4">
+        <p5:EndUserIPAddress>fe80::899d:4fc7:e437:2bd8%12</p5:EndUserIPAddress>
+    </MessageInfo>
+    <PointOfSaleKey xmlns = "urn:expedia:e3:data:placetypes:defn:v4">
+        <JurisdictionCountryCode>ITA</JurisdictionCountryCode>
+        <CompanyCode xmlns = "urn:expedia:e3:data:basetypes:defn:v4">10116</CompanyCode>
+        <ManagementUnitCode xmlns = "urn:expedia:e3:data:basetypes:defn:v4">6090</ManagementUnitCode>
+    </PointOfSaleKey>
+    <AuditLogTrackingData xmlns = "urn:expedia:e3:data:cartypes:defn:v5">
+        <LogonUserKey xmlns = "urn:expedia:e3:data:basetypes:defn:v4">
+            <UserID>72009</UserID>
+        </LogonUserKey>
+        <TravelerUserKey xmlns = "urn:expedia:e3:data:basetypes:defn:v4">
+            <UserID>72009</UserID>
+        </TravelerUserKey>
+        <AuditLogGUID>574aa700-2d47-4e0d-bd24-2115e1ad2bfc</AuditLogGUID>
+        <AuditLogTPID>60008</AuditLogTPID>
+        <AuditLogEAPID>0</AuditLogEAPID>
+        <AuditLogGPID>0</AuditLogGPID>
+        <AuditLogLanguageId>1040</AuditLogLanguageId>
+        <AuditLogForceLogging>true</AuditLogForceLogging>
+        <AuditLogForceDownstreamTransaction>true</AuditLogForceDownstreamTransaction>
+    </AuditLogTrackingData>
+    <SearchCriteria xmlns = "">
+        <Latitude p5:Value = "4138183" p5:DecimalPlaceCount = "5" xmlns:p5 = "urn:com:expedia:s3:cars:supplyconnectivity:messages:location:search:defn:v1"/>
+        <Longitude p5:Value = "215112" p5:DecimalPlaceCount = "5" xmlns:p5 = "urn:com:expedia:s3:cars:supplyconnectivity:messages:location:search:defn:v1"/>
+        <Radius p5:DistanceUnitCount = "5" p5:DistanceUnit = "MI" xmlns:p5 = "urn:com:expedia:s3:cars:supplyconnectivity:messages:location:search:defn:v1"/>
+        <Filter p5:CollectionBoolean = "true" p5:DeliveryBoolean = "true" p5:OutOfOfficeHourBoolean = "true" xmlns:p5 = "urn:com:expedia:s3:cars:supplyconnectivity:messages:location:search:defn:v1"/>
+        <IncludeLocationDetails>true</IncludeLocationDetails>
+    </SearchCriteria>
+</CarSupplyConnectivityLocationSearchRequest>

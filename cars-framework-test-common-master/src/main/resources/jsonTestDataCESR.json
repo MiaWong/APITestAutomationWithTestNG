@@ -1,0 +1,87 @@
+{
+	"CESR-GBR_Standalone_RoundTrip_OnAirport_TiSCS":{
+		"MessageInfo":"CarECommerceSearchRequest",
+
+		"SiteMessageInfo" : {
+			"PointOfSaleKey" : {
+				"JurisdictionCountryCode": "FRA",
+				"CompanyCode": "10111",
+				"ManagementUnitCode": "1060"
+			},
+			"Language": {
+				"LanguageCode": "fr",
+				"CountryAlpha2Code": "FR"
+			}
+		},
+		"AuditLogTrackingData":{
+			"LogonUserKey":"",
+			"TravelerUserKey":"",
+			"AuditLogGUID":"d3f2b703-e4a8-46c8-a604-571ab81068f8",
+			"AuditLogTPID":"20",
+			"AuditLogEAPID":"0",
+			"AuditLogGPID":"0",
+			"AuditLogLanguageId":"1036",
+			"AuditLogForceLogging":true,
+			"AuditLogForceDownstreamTransaction":true
+		},
+
+		"OptimizationStrategyCode" : 0,
+
+		"CarSearchStrategy":{
+			"PricingVisibilityBoolean":true,
+			"PackageBoolean":false
+		},
+
+		"CarECommerceSearchStrategy" : {
+			"CrossSellBoolean" : false,
+			"NeedReferencePricesBoolean" : false,
+			"NeedPublishedBoolean" : false,
+			"NeedMerchantBoolean" :false,
+			"NeedUpgradeMapBoolean" :true,
+			"HotelPurchaseOption" : 1,
+			"PurchaseTypeMask" : 128
+		},
+
+		"CarECommerceSearchCriteriaList":[
+			{
+				"Sequence":1,
+
+				"CarTransportationSegment":{
+					"StartCarLocationKey":{
+						"LocationCode":"LHR"
+					},
+
+					"EndCarLocationKey":{
+						"LocationCode":"LHR"
+					},
+					"SegmentDateTimeRange":{
+						"StartDateTime":"2016-11-19T12:41:00",
+						"EndDateTime":"2016-11-22T11:41:00"
+					}
+				},
+
+				"CarVehicleList":[
+					{
+						 "CarCategoryCode":0,
+						 "CarTypeCode":0,
+						 "CarTransmissionDriveCode":0,
+						 "CarFuelACCode":0
+					}
+				],
+				"CarClassificationIDList":[
+					1
+				],
+				"CurrencyCode":"EUR",
+				"CarRate":null,
+				"SmokingBoolean":false,
+				"PrePaidFuelBoolean":false,
+				"UnlimitedMileageBoolean":false,
+				"PackageBoolean":false
+			}
+		],
+
+		"CarProductCatalogID" : 0,
+		"DisableCostListProcessingBoolean" : false
+	}
+
+}

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.expedia.s3</groupId>
+    <artifactId>cars-bugatti-service-test</artifactId>
+    <version>1.1.0</version>
+    <packaging>jar</packaging>
+
+    <parent>
+        <groupId>com.expedia.s3</groupId>
+        <artifactId>cars-modules-test-parent</artifactId>
+        <version>1.0.2</version>
+    </parent>
+
+    <name>cars-bugatti-service-test</name>
+
+    <!-- the scm config is required for the release plugin to work -->
+    <scm>
+        <connection>scm:git:git@ewegithub.sb.karmalab.net:EWE/cars-bugatti-service-tests.git</connection>
+        <developerConnection>scm:git:git@ewegithub.sb.karmalab.net:EWE/cars-bugatti-service-tests.git</developerConnection>
+        <tag>HEAD</tag>
+        <url>scm:git:git@ewegithub.sb.karmalab.net:EWE/cars-bugatti-service-tests.git</url>
+    </scm>
+
+    <properties>
+        <cars-framework-test-common.version>[1.0,1.9999]</cars-framework-test-common.version>
+        <cars-supply-schema.version>1.8.1</cars-supply-schema.version>
+        <pmd.skip>true</pmd.skip>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.expedia.s3</groupId>
+            <artifactId>cars-framework-test-common</artifactId>
+            <version>${cars-framework-test-common.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.expedia.www.platform</groupId>
+            <artifactId>platform-ensconce-vault</artifactId>
+            <version>0.1.9</version>
+        </dependency>
+
+        <!-- http://mvnrepository.com/artifact/joda-time/joda-time -->
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>cars-supply-schema</groupId>
+            <artifactId>cars-supply-schema-ecommerce-shopping-v1</artifactId>
+            <version>${cars-supply-schema.version}</version>
+            <type>xsd</type>
+        </dependency>
+
+        <dependency>
+            <groupId>cars-supply-schema</groupId>
+            <artifactId>cars-supply-schema-common-v1</artifactId>
+            <version>${cars-supply-schema.version}</version>
+            <type>xsd</type>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-resources-plugin</artifactId>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>${maven-release-plugin.version}</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.apache.maven.scm</groupId>
+                        <artifactId>maven-scm-provider-gitexe</artifactId>
+                        <version>${maven-scm-provider-gitexe.version}</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven-compiler-plugin.version}</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>2.10</version>
+                <executions>
+                    <execution>
+                        <id>copy-dependencies</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <includeArtifactIds>cars-supply-schema-common-v1,cars-supply-schema-ecommerce-shopping-v1</includeArtifactIds>
+                            <outputDirectory>${project.basedir}/target/xsd-includes</outputDirectory>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>copy</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>copy</goal>
+                        </goals>
+                        <configuration>
+                            <artifactItems>
+                                <artifactItem>
+                                    <groupId>cars-supply-schema</groupId>
+                                    <artifactId>cars-supply-schema-common-v1</artifactId>
+                                    <version>${cars-supply-schema.version}</version>
+                                    <type>xsd</type>
+                                    <overWrite>true</overWrite>
+                                    <outputDirectory>${project.basedir}/target/xsd-includes/src</outputDirectory>
+                                    <destFileName>cars-supply-schema-common.xsd</destFileName>
+                                </artifactItem>
+                                <artifactItem>
+                                    <groupId>cars-supply-schema</groupId>
+                                    <artifactId>cars-supply-schema-ecommerce-shopping-v1</artifactId>
+                                    <version>${cars-supply-schema.version}</version>
+                                    <type>xsd</type>
+                                    <overWrite>true</overWrite>
+                                    <outputDirectory>${project.basedir}/target/xsd-includes/src</outputDirectory>
+                                    <destFileName>cars-supply-schema-ecommerce-shopping.xsd</destFileName>
+                                </artifactItem>
+                            </artifactItems>
+                        </configuration>
+                    </execution>
+
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.jvnet.jaxb2.maven2</groupId>
+                <artifactId>maven-jaxb2-plugin</artifactId>
+                <version>0.13.1</version>
+                <executions>
+                    <execution>
+                        <id>types</id>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <schemaDirectory>${project.basedir}</schemaDirectory>
+                    <schemaIncludes>
+                        <include>target/xsd-includes/src/*.xsd</include>
+                    </schemaIncludes>
+                </configuration>
+            </plugin>
+
+        </plugins>
+    </build>
+</project>

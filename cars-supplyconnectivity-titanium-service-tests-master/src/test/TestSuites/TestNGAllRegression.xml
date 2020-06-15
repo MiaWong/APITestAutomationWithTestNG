@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Titanium TestNG Regression Tests" verbose="1">
+    <test name="Regression Group Run">
+        <groups>
+            <define name="All">
+                <include name="shoppingRegression"/>
+                <include name="bookingRegression"/>
+            </define>
+            <run>
+                <include name="All"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.search.Search" />
+            <class name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.getdetails.GetDetails" />
+            <class name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.costandavail.CostAndAvail" />
+            <class name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.reserve.Reserve" />
+            <class name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.getreservation.GetReservation" />
+            <class name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.cancel.Cancel" />
+        </classes>
+    </test>
+</suite>

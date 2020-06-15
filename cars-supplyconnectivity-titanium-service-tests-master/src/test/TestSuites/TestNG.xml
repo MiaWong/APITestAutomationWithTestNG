@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Titanium TestNG All Tests" verbose="1">
+    <test name="All Groups Run">
+        <groups>
+            <run>
+                <include name="bvt" />
+                <include name="shoppingRegression"/>
+                <include name="bookingRegression"/>
+                <include name="shoppingRegressionLive"/>
+                <include name="bookingRegressionLive"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.bvt.EndToEnd" />
+            <class name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.bvt.Search" />
+            <class name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.bvt.GetDetails" />
+            <class name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.bvt.GetCostAndAvail" />
+            <class name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.bvt.Reserve" />
+            <class name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.bvt.GetReservation" />
+            <class name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.bvt.EndToEnd" />
+            <class name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.search.Search" />
+            <class name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.getdetails.GetDetails" />
+            <class name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.costandavail.CostAndAvail" />
+            <class name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.reserve.Reserve" />
+            <class name="com.expedia.s3.cars.supplyconnectivity.titanium.service.tests.getreservation.GetReservation" />
+        </classes>
+    </test>
+</suite>
